@@ -9,7 +9,7 @@
 Questo Plugin è FULL CUSTOM, ha richiesto più di un mese di sviluppo!
 
 ```
-🌟 Menzioni d'onore: MasterDevelopment / McMaster Network / AtenaMC / [xJess, la mia cara maestra xD](https://github.com/Tyranzx) / ShynoMC
+🌟 Menzioni d'onore: MasterDevelopment / McMaster Network / AtenaMC / xJess/ ShynoMC
 
                          Sistema di Login Custom by TheNeku per McMaster  (2024) 
 ```
