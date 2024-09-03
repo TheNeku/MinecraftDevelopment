@@ -27,5 +27,3 @@ In caso ti interessase il mio server minecarft ti invito ad unirti al [discord](
 `AutoLogin` Anche se non vi è lo /premium, tutti giocatori che hanno un account minecraft premium, potranno usufruire dell'autologin! Tramite il comando /autologin si potrà infatti evitare di fare il login ogni volta.
 In caso di cambio IP, verrà ugualmente chiesta la password per maggiore sicurezza. Se fate lo /autologin in vacanza ricordate di aggiungere l'ip di casa agli ip consentiti
 
-`Gestione degli IP` Ogni giocatore tramite il comando /IP (effettuabile solo in lobby) può vedere tramite una gui tutti gli IP del suo account che sono stati connessi al server, con tanto di posizione. In caso si volesse bloccare l'accesso al server da un IP non proprio, bisogna aprire ticket sul discord di McMaster!
-
