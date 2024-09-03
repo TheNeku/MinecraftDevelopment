@@ -25,5 +25,5 @@ In caso ti interessase il mio server minecarft ti invito ad unirti al [discord](
 `Accessi SP` A differenza di molti plguin di autenticazione ho ritenuto che lo /premium fosse inutile. Poichè è corretto che ogni giocatore premium, anche se mai joinato nel server sia tutelato nelle frodi di account. Infatti gli accessi SP sono strettamente controllati ed un giocatore craccato non può joinare sul server con uno username premium! 
 
 `AutoLogin` Anche se non vi è lo /premium, tutti giocatori che hanno un account minecraft premium, potranno usufruire dell'autologin! Tramite il comando /autologin si potrà infatti evitare di fare il login ogni volta.
-In caso di cambio IP, verrà ugualmente chiesta la password per maggiore sicurezza. Se fate lo /autologin in vacanza ricordate di aggiungere l'ip di casa agli ip consentiti
+In caso di cambio IP, la prima volta verrà ugualmente chiesta la password per maggiore sicurezza.
 
