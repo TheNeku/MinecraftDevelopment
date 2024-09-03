@@ -8,12 +8,6 @@
 ## [⚠ DISCLAIMER ⚠]
 Questo Plugin è FULL CUSTOM, ha richiesto più di un mese di sviluppo!
 
-```
-🌟 Menzioni d'onore: MasterDevelopment / McMaster Network / AtenaMC / xJess/ ShynoMC
-
-                         Sistema di Login Custom by TheNeku per McMaster  (2024) 
-```
-
 Il plugin è eccellente nel suo genere, poichè ho scelto le migliori classi e da quando lo ho sviluppato non ho mai avuto un singolo problema!
 Qusto plugin lo ho ideato per sostituire JPremium, che in alcuni punti ha dei problemi più che evidenti
 Per ora verrà utilizzato esclusivamente sul mio Server Minecraft, chiamato McMaster, e in questa sezione del mio profilo vedrai tutte le funzionalità e gli aggiornamenti del plugin!
