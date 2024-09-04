@@ -6,7 +6,8 @@
 ```
 
 ## [⚠ DISCLAIMER ⚠]
-Questo Plugin è FULL CUSTOM, ha richiesto più di un mese di sviluppo!
+Questo Plugin è FULL CUSTOM ed è tutelato da copyright!
+© Mc-Master 2024. Tutti i diritti riservati.
 
 Il plugin è eccellente nel suo genere, poichè ho scelto le migliori classi e da quando lo ho sviluppato non ho mai avuto un singolo problema!
 Qusto plugin lo ho ideato per sostituire JPremium, che in alcuni punti ha dei problemi più che evidenti!
@@ -20,7 +21,7 @@ In caso ti interessase il mio server minecarft ti invito ad unirti al [discord](
 
 `IP Check`: Se il giocatore si connette in un breve lasso di tempo da due nazioni diverse, l'account verrà flaggato allo Staff per dei controlli! In caso di check potrebbe essere richiesto discord, ma comuqnue si può tranquillamente svolgere una verfica screenshare tramite AnyDesk! In caso di bypass dell'Anti VPN/Proxy potrebbero verificarsi problemi di questo tipo!
 
-`Funzionamento tramite Database` Il plguin chiaramente funziona tramite database ed è compatibile con MySQL e MariaDB!
+`Funzionamento tramite Database` Il plguin chiaramente funziona tramite database ed è compatibile con MySQL e MariaDB. Tutte le informazioni vengono salvate su table riservati ai player.
 
 `Accessi SP` A differenza di molti plguin di autenticazione ho ritenuto che lo /premium fosse inutile. Poichè è corretto che ogni giocatore premium, anche se mai joinato nel server sia tutelato nelle frodi di account. Infatti gli accessi SP sono strettamente controllati ed un giocatore craccato non può joinare sul server con uno username premium! 
 
