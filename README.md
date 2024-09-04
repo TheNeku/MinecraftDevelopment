@@ -1,6 +1,6 @@
 # [🛠️] Minecraft Development
 
-## [⚠ DISCLAIMER ⚠]
+
 Non per tutti i plugin ci saranno source code completi o grandi codici, per plugin molto rilevanti al massimo caricherò qualche classe, solo per il plot xD
 
 ## ⚡ Repository
