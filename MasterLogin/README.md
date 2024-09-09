@@ -13,7 +13,7 @@ Il plugin è eccellente nel suo genere, poichè ho scelto le migliori classi e d
 Qusto plugin lo ho ideato per sostituire JPremium, che in alcuni punti ha dei problemi più che evidenti!
 Per ora verrà utilizzato esclusivamente sul mio Server Minecraft, chiamato McMaster, e in questa sezione del mio profilo vedrai tutte le funzionalità e gli aggiornamenti del plugin!
 In caso ti interessase il mio server minecarft ti invito ad unirti al [discord](https://discord.gg/mc-master)!
-
+Ho fatto due versioni una Bungeecord e una velocity, la seconda è stata un calvario xD
 
 ## 📊 Features
 
