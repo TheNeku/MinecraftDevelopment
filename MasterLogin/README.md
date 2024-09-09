@@ -6,7 +6,7 @@
 ```
 
 ## [⚠ DISCLAIMER ⚠]
-Questo Plugin è FULL CUSTOM ed è tutelato da copyright!
+Questo Plugin è **FULL CUSTOM** ed è tutelato da *copyright*!
 © Mc-Master 2024. Tutti i diritti riservati.
 
 Il plugin è eccellente nel suo genere, poichè ho scelto le migliori classi e da quando lo ho sviluppato non ho mai avuto un singolo problema!
@@ -28,3 +28,17 @@ Ho fatto due versioni una Bungeecord e una velocity, la seconda è stata un calv
 `AutoLogin` Anche se non vi è lo /premium, tutti giocatori che hanno un account minecraft premium, potranno usufruire dell'autologin! Tramite il comando /autologin si potrà infatti evitare di fare il login ogni volta.
 In caso di cambio IP, la prima volta verrà ugualmente chiesta la password per maggiore sicurezza.
 
+## 📸 Foto
+
+**Auth**
+![register](https://github.com/user-attachments/assets/797ad010-af6f-401f-8539-ffbb3f74c0cc)
+
+![join login](https://github.com/user-attachments/assets/4693b7a5-5143-4a4d-af81-73a69deda953)
+
+![2024-09-09_19 53 28](https://github.com/user-attachments/assets/425b6af1-7bcf-48eb-94ed-b9e6544006ff)
+
+![2024-09-09_19 55 10](https://github.com/user-attachments/assets/ca819434-804e-49df-80a8-7b3ec8c85282)
+
+![2024-09-09_19 56 38](https://github.com/user-attachments/assets/94568e27-7f9f-4126-bd71-110d51ab1928)
+
+![2024-09-09_19 58 16](https://github.com/user-attachments/assets/28bf3ed0-c096-4aaf-9cad-4313db796c4a)
