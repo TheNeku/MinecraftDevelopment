@@ -36,12 +36,3 @@ In caso di cambio IP, la prima volta verrà ugualmente chiesta la password per m
 
 ![join login](https://github.com/user-attachments/assets/4693b7a5-5143-4a4d-af81-73a69deda953)
 
-&4s
-
-![2024-09-09_19 53 28](https://github.com/user-attachments/assets/425b6af1-7bcf-48eb-94ed-b9e6544006ff)
-
-![2024-09-09_19 55 10](https://github.com/user-attachments/assets/ca819434-804e-49df-80a8-7b3ec8c85282)
-
-![2024-09-09_19 56 38](https://github.com/user-attachments/assets/94568e27-7f9f-4126-bd71-110d51ab1928)
-
-![2024-09-09_19 58 16](https://github.com/user-attachments/assets/28bf3ed0-c096-4aaf-9cad-4313db796c4a)
