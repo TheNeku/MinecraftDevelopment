@@ -31,6 +31,7 @@ In caso di cambio IP, la prima volta verrà ugualmente chiesta la password per m
 ## 📸 Foto
 
 **Auth**
+
 ![register](https://github.com/user-attachments/assets/797ad010-af6f-401f-8539-ffbb3f74c0cc)
 
 ![join login](https://github.com/user-attachments/assets/4693b7a5-5143-4a4d-af81-73a69deda953)
