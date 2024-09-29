@@ -6,27 +6,29 @@
 ```
 
 ## [⚠ DISCLAIMER ⚠]
-Questo Plugin è **FULL CUSTOM** ed è tutelato da *copyright*!
-© Mc-Master 2024. Tutti i diritti riservati.
+This Plugin is **FULL CUSTOM** and is protected by *copyright*!
+© Mc-Master 2024. All rights reserved.
 
-Il plugin è eccellente nel suo genere, poichè ho scelto le migliori classi e da quando lo ho sviluppato non ho mai avuto un singolo problema!
-Qusto plugin lo ho ideato per sostituire JPremium, che in alcuni punti ha dei problemi più che evidenti!
-Per ora verrà utilizzato esclusivamente sul mio Server Minecraft, chiamato McMaster, e in questa sezione del mio profilo vedrai tutte le funzionalità e gli aggiornamenti del plugin!
-In caso ti interessase il mio server minecarft ti invito ad unirti al [discord](https://discord.gg/mc-master)!
-Ho fatto due versioni una Bungeecord e una velocity, la seconda è stata un calvario xD
+The plugin is excellent of its kind, as I chose the best classes and since I developed it I have never had a single problem!
+I designed this plugin to replace JPremium, which in some places has more than obvious problems!
+For now it will be used exclusively on my Minecraft Server, called McMaster, and in this section of my profile you will see all the features and updates of the plugin!
+In case you are interested in my minecarft server I invite you to join the [discord](https://discord.gg/mc-master)!
+I made two versions, a Bungeecord and a velocity, the second was an ordeal xD
 
 ## 📊 Features
 
-`Registrazione e Login` Quando un giocatore joina nel server, se non è registrato, dovrà registrarsi creando una password che dovrà utilizzare per accedere al server quando si unirà nuovamente. Questa funzionalità protegge da eventuali furti di account, soprattutto nei server SP. Se un giocatore vuole cambiare la password, può farlo autonomamente, tuttavia deve ricordare quella vecchia. In caso si perda l'accesso all'account un membro dello staff può annullare la registrazione del giocatore (Ricorda che l'unregister è su richiesta è può essere richiesto solo aprendo ticket sul discord). I comandi possono essere usati solo nel server Auth!
+`SP Logins` Unlike many authentication plugins I found /premium to be useless. Since it is correct that every premium player, even if he has never joined the server, is protected against account fraud. In fact, SP accesses are strictly controlled and a cracked player cannot join the server with a premium username! 
 
-`IP Check`: Se il giocatore si connette in un breve lasso di tempo da due nazioni diverse, l'account verrà flaggato allo Staff per dei controlli! In caso di check potrebbe essere richiesto discord, ma comuqnue si può tranquillamente svolgere una verfica screenshare tramite AnyDesk! In caso di bypass dell'Anti VPN/Proxy potrebbero verificarsi problemi di questo tipo!
+`Sessions and Authentication` After authentication, if the player is recognized as premium a premium session is started, if it is recognized as cracked a cracked session is started. Sessions are created to ensure greater security and to limit actions of cracked players. (I also use it to make it easier to use without having to rewrite a scroll every time)
 
-`Funzionamento tramite Database` Il plguin chiaramente funziona tramite database ed è compatibile con MySQL e MariaDB. Tutte le informazioni vengono salvate su table riservati ai player.
+`Registration and Login` When a player joins the server, if he is not registered, he will have to register by creating a password that he will have to use to access the server when he joins again (Command /register [password] [password]). This feature protects against account takeovers, especially on an SP server. If a player wants to change the password, he can do it himself without the hassle of opening a ticket on the discord, however he must remember the old one. If you lose access to your account, a staff member can unregister the player (Remember that the unregister is on request and can only be requested by opening tickets on the discord). The /register and /login commands can only be used in the Auth server, while the others only in Lobby!
 
-`Accessi SP` A differenza di molti plguin di autenticazione ho ritenuto che lo /premium fosse inutile. Poichè è corretto che ogni giocatore premium, anche se mai joinato nel server sia tutelato nelle frodi di account. Infatti gli accessi SP sono strettamente controllati ed un giocatore craccato non può joinare sul server con uno username premium! 
+`IP Check`: If the player connects in a short period of time from two different countries/regions, the account will be flagged to the Staff for checks! In the event of a check, discord may be required, but you can still easily carry out a screenshare check via AnyDesk! In case of bypassing the Anti VPN/Proxy, problems of this type could occur!
 
-`AutoLogin` Anche se non vi è lo /premium, tutti giocatori che hanno un account minecraft premium, potranno usufruire dell'autologin! Tramite il comando /autologin si potrà infatti evitare di fare il login ogni volta.
-In caso di cambio IP, la prima volta verrà ugualmente chiesta la password per maggiore sicurezza.
+`Database Operation` The plugin clearly works via database and is compatible with MySQL and MariaDB. All information is saved on tables reserved for players.
+
+`AutoLogin` Even if there is no /premium, all players who have a premium Minecraft account will be able to take advantage of autologin! Using the /autologin command you can avoid having to log in every time.
+In the event of an IP change, the password will still be asked for the first time for greater security.
 
 ## 📸 Foto
 
