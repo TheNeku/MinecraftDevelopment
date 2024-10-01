@@ -7,12 +7,3 @@ Most of the plugins in this repository will be used on my minecraft server: McMa
 You can contact me on Discord: theneku
 
 ~ MasterDevelopment
-
-⬛⬛⬛⬜⬜⬛⬛⬛
-⬛⬛⬜⬜⬜⬜⬛⬛
-⬛⬜⬜⬜⬜⬜⬜⬛
-⬛⬜⬛⬜⬜⬛⬜⬛
-⬛⬜⬜⬜⬜⬜⬜⬛
-⬛⬜⬛⬜⬛⬜⬛⬛
-⬛⬜⬛⬛⬛⬛⬜⬛
-⬛⬜⬛⬛⬛⬛⬜⬛
