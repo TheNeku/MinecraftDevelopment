@@ -6,4 +6,4 @@ Most of the plugins in this repository will be used on my minecraft server: McMa
 ## ⚡ Contact Me
 You can contact me on Discord: theneku
 
-~ MasterDevelopment
+~ eu@MasterDevelopment
