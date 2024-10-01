@@ -37,7 +37,8 @@ In the event of an IP change, the password will still be asked for the first tim
 
 **Auth**
 
-![register](https://github.com/user-attachments/assets/797ad010-af6f-401f-8539-ffbb3f74c0cc)
+![image](https://github.com/user-attachments/assets/dba51fa6-39ec-4080-aafd-57e89b36bbe4)
 
-![join login](https://github.com/user-attachments/assets/4693b7a5-5143-4a4d-af81-73a69deda953)
+![image](https://github.com/user-attachments/assets/95c45f33-f00e-4b50-917e-7733f7029476)
+
 
