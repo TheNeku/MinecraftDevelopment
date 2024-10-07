@@ -34,15 +34,15 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 
 `Tag & Chat` The tag displays [Gang + Name (color-coded based on rank) + Bounty]. The chat is more comprehensive, including [Gang + Prefix + Name + Bounty].
 
+`Holograms` A custom hologram system that facilitates player interaction. They are employed to briefly explain key locations within the spawn area and to display leaderboards. The leaderboards are categorized under Player, which includes Kills, Deaths, Streak, Money, and Gang; however, for Gang, there is only one leaderboard for power. Upon interacting with the hologram, the "Total," "Weekly," and "Daily" leaderboards are displayed. The Holograms location Is saved by ArrayList.
+
 ### ☁️ Events
 
 `KOTH` The objective of the KOTH (King of the Hill) event is to remain within a designated area. Each second you occupy the area, you earn a point, and the player who accumulates the most points wins the event. Victorious players can earn money, items, or even VIP status!
 
 `Airdrop` In this event, chests spawn across the map containing loot, which can include items, money, and more. Upon interacting with a chest, it despawns, and the reward is placed directly into your inventory if it's an item, into your balance if it's money, and so forth. If the chest drops an item and your inventory is full, the item is dropped on the ground.
 
-### 🔓 Extra
-
-`Holograms` A custom hologram system that facilitates player interaction. They are employed to briefly explain key locations within the spawn area and to display leaderboards. The leaderboards are categorized under Player, which includes Kills, Deaths, Streak, Money, and Gang; however, for Gang, there is only one leaderboard for power. Upon interacting with the hologram, the "Total," "Weekly," and "Daily" leaderboards are displayed.
+### 🔓 Plugin Extra (not Minecraft)
 
 `Database Operations` All features are stored in the database, and the plugin is fully dependent on it to function correctly. Currently, only MySQL is supported. Without a database connection, the plugin will not operate.
 
