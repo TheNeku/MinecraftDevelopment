@@ -44,3 +44,6 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 
 `Holograms` A custom hologram system that facilitates player interaction. They are employed to briefly explain key locations within the spawn area and to display leaderboards. The leaderboards are categorized under Player, which includes Kills, Deaths, Streak, Money, and Gang; however, for Gang, there is only one leaderboard for power. Upon interacting with the hologram, the "Total," "Weekly," and "Daily" leaderboards are displayed.
 
+`Database Operations` All features are stored in the database, and the plugin is fully dependent on it to function correctly. Currently, only MySQL is supported. Without a database connection, the plugin will not operate.
+
+
