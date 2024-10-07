@@ -16,7 +16,7 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 
 `Currency` A bespoke currency system, devoid of dependencies and seamlessly integrated with all game mechanics. For instance, upon eliminating a player, you receive $200, and $50 as an assist reward. Your balance is visible using the /money command or on the scoreboard.
 
-`Streak` A system that tracks the number of consecutive kills (i.e., without dying) a player achieves. As your streak increases, you are granted bonuses such as enhanced earnings on kills and assists; however, a bounty will be placed on your head. Your streak is displayed on the scoreboard.
+`Streak` A system that tracks the number of consecutive kills (i.e., without dying) a player achieves. As your streak increases, you are granted bonuses such as enhanced earnings on kills and assists; however, a bounty will be placed on your head. Your streak is displayed on the scoreboard. When a player have an high Number of streak kill and assist have an higher reward (not 200$ and 50$, buy and higher Number depending on the streak.
 
 `Bounty` Bounties serve as an incentive for players to eliminate those with high streaks, thereby redeeming the bounty and earning money. The bounty's value varies according to the player's streak count. The bounties on all players are visible in the Tag and Tablist; if you have a bounty on yourself, it is also displayed on the scoreboard.
 
