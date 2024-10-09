@@ -60,6 +60,15 @@ On Streak (Every 5 kills, will appeare a brodcastmessage in chat! Message the me
 
 `Airdrop` In this event, chests spawn across the map containing loot, which can include items, money, and more. Upon interacting with a chest, it despawns, and the reward is placed directly into your inventory if it's an item, into your balance if it's money, and so forth. If the chest drops an item and your inventory is full, the item is dropped on the ground.
 
+### ❗ Commands
+
+`Gamemode`
+![An6YE87f](https://github.com/user-attachments/assets/75634a78-4d9f-4c82-a0c2-b69a9f0afbc1)
+
+`Gang`
+P.S. Gang cost 30.000$, if you delete it, you can create a gan every 24 hours
+![An6YE87f](https://github.com/user-attachments/assets/68397514-e4d1-4302-8fa5-70a5e8ee392b)
+
 ### 🔓 Plugin Extra (not Minecraft)
 
 `Database Operations` All features are stored in the database, and the plugin is fully dependent on it to function correctly. Currently, only MySQL is supported. Without a database connection, the plugin will not operate.
