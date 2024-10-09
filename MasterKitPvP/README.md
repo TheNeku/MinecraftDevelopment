@@ -26,6 +26,8 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 
 `Gangs` Gangs are teams of up to six players who can collaborate and cannot attack one another. (The maximum number of gang members may be increased as the server's player base grows.)
 
+`Shop` The shop is used to purchase equipment that you'll use to fight other players or simple cosmetics! The currency is $ and prices vary depending on the item!
+
 ### 🖥️ Interfaces
 
 `Scoreboards` The scoreboard is designed to be dynamic and intuitive, devoid of flickering or bugs. It adapts when entering combat and if you have a bounty. Below are some images of the scoreboard:
