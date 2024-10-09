@@ -32,7 +32,7 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 
 ![An6YE87f](https://github.com/user-attachments/assets/3e8fda6a-f7ba-4ffd-a59b-bbcd3b6f19d6)
 ![An6YE87f](https://github.com/user-attachments/assets/1bfa0f46-c60f-4d35-8b85-3ee0a0760d4f)
-![An6YE87f](https://github.com/user-attachments/assets/1af1a50a-b9eb-4d8c-ab4f-bd7ce5a6471d)
+![An6YE87f](https://github.com/user-attachments/assets/ae128e39-3eec-4814-b8b2-0f7c868cedcd)
 
 `Tablist` The tablist is crafted using advanced classes deep within Spigot to ensure it remains visually appealing. Here is an image of the tablist:
 
