@@ -40,8 +40,11 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 
 `Tag & Chat` The tag displays [Gang + Name (color-coded based on LuckPerms rank) + Bounty]. The chat is more comprehensive, including [Gang + Prefix + Name + Bounty].
 
+###### Tag
 ![An6YE87f](https://github.com/user-attachments/assets/a2b94558-76fc-4531-afbe-5b4484db1d2e)
 
+###### Chat
+![An6YE87f](https://github.com/user-attachments/assets/f40d7d69-231c-40e9-a899-4323ef0ce136)
 
 `Holograms` A custom hologram system that facilitates player interaction. They are employed to briefly explain key locations within the spawn area and to display leaderboards. The leaderboards are categorized under Player, which includes Kills, Deaths, Streak, Money, and Gang; however, for Gang, there is only one leaderboard for power. Upon interacting with the hologram, the "Total," "Weekly," and "Daily" leaderboards are displayed. The Holograms location Is saved by ArrayList.
 
