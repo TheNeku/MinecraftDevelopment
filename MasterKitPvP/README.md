@@ -63,8 +63,7 @@ On Streak (Every 5 kills, will appeare a brodcastmessage in chat! Message the me
 ### ❗ Commands
 
 `Gamemode`
-
-![image](https://github.com/user-attachments/assets/ed72383b-6fca-43d6-a2ce-eabecee1bca4)
+![An6YE87f](https://github.com/user-attachments/assets/b3a2b1ea-38bd-4e94-bca1-8883aa04cb22)
 
 `Gang`
 P.S. Gang cost 30.000$, if you delete it, you can create a gan every 24 hours
