@@ -46,7 +46,7 @@ After utilizing the Velocity API, I ventured into Spigot development! Unlike oth
 ##### Chat
 
 ###### On Combat
-![An6YE87f](https://github.com/user-attachments/assets/f40d7d69-231c-40e9-a899-4323ef0ce136)
+![2024-10-12_21 40 55](https://github.com/user-attachments/assets/6219f6c0-9c7e-4c2a-a7fd-6d1a81261694)
 
 ###### On Streak (Every 5 kills, will appeare a brodcastmessage in chat! Message the message varies depending on the streak) && On Kill:
 ![An6YE87f](https://github.com/user-attachments/assets/e7a05623-bcba-4752-89f0-fc14a4ae8362)
