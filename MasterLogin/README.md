@@ -27,7 +27,13 @@ Just a quick note: I created two versions of the plugin — a BungeeCord version
 
 `AutoLogin` Even without the /premium command, players with premium Minecraft accounts can benefit from autologin. By using the /autologin command, they can avoid having to log in each time. For added security, if an IP change is detected, the password will be required again on the next login.
 
-## 📸 Foto
+## 📖 Languages
+
+At the moment I have only created an Italian and an English version, but soon I will translate it into many other languages! The first final version of the plugin isn't that close xD.
+
+## 📸 Photos
+
+Currently on Development!!!
 
 **Auth**
 
