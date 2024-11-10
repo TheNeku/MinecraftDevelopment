@@ -1,4 +1,4 @@
-# 🚀 MASTERLOGIN
+# 🚀 CYBERLOGIN
 
 ```
 💘 by TheNeku - MasterDevelopment
@@ -6,9 +6,9 @@
 ```
 
 ## [⚠ DISCLAIMER ⚠]
-This plugin is FULLY CUSTOM and is protected by copyright! © Mc-Master 2024. All rights reserved.
+This plugin is FULLY CUSTOM, do not redistribute! © CyberDevelopment 2024. All rights reserved.
 
-This plugin stands out in its category, as I carefully selected the best classes and have encountered no issues since its development! I designed this plugin as a replacement for JPremium, which has some notable flaws. Currently, it's exclusively used on my Minecraft server, McMaster. In this section of my profile, you'll find all the features and updates for the plugin! If you're interested in my Minecraft server, feel free to join the [discord](https://discord.gg/mc-master)!
+This plugin stands out in its category, as I carefully selected the best classes and have encountered no issues since its development! I designed this plugin as a replacement for JPremium, which has some notable flaws. It is not currently in use on any server, but in the future I would like to sell it as a valid alternative to other plugins. If you're interested in my development, feel free to join the [discord](https://discord.gg/usbXCnH4AC)!
 Just a quick note: I created two versions of the plugin — a BungeeCord version, which was straightforward, and a Velocity version, which was quite challenging xD. The effort, however, greatly improved the plugin's security.
 
 ## 📊 Features
