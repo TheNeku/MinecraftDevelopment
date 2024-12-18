@@ -13,7 +13,7 @@ Just a quick note: I created two versions of the plugin — a BungeeCord version
 
 ## 📊 Features
 
-`SP Logins` Unlike many authentication plugins, I've found the /premium command to be unnecessary. Every premium player is automatically protected from account theft, even if they have never joined the server. Strict access controls for SP accounts ensure that cracked players cannot join with a premium username. (The verify Is based on Mojang API's
+`SP Logins` Unlike many authentication plugins, I've found the /premium command to be unnecessary. Every premium player is automatically protected from account theft, even if they have never joined the server. Strict access controls for SP accounts ensure that cracked players cannot join with a premium username. (The verify Is based on Mojang API's)
 
 `Sessions and Authentication` Upon authentication, if a player is identified as premium, a premium session is initiated; if identified as cracked, a cracked session is started. Sessions enhance security and limit the actions of cracked players, also making the plugin easier to use without needing to repeatedly input long strings of text.
 
