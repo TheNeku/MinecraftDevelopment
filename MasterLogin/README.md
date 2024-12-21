@@ -16,7 +16,7 @@ Ricordo che questo, come altri miei plugin, è in uso sul mio server Minecraft: 
 
 ## 📊 Features
 
-### 👤 Meccaniche di Gioco
+### 👤 Gestione dei giocatori
 
 `Gestione dei giocatori cracked` Per evitare frodi sugli account premium, il plugin verifica se un giocatore con uno username premium tenta di accedere con un UUID craccato. In tal caso, l'accesso viene bloccato per proteggere il reale proprietario dell'account. Un giocatore è considerato premium solo se sia l'UUID che lo username corrispondono a un account autentico. Questi controlli vengono effettuati sia durante la fase di PreLogin che nella fase di Login.
 
