@@ -47,8 +47,8 @@ I giocatori premium beneficiano di una protezione avanzata basata sull'UUID, ren
 
 https://github.com/user-attachments/assets/dc456d99-9119-4a2e-94e4-2e08cba0db3c
 
-
 https://github.com/user-attachments/assets/7a5ef6cb-882a-41b8-ad90-d94ad90b78b8
 
+https://github.com/user-attachments/assets/b272ea91-a6db-4ef1-b71b-243e9b092f2d
 
 
