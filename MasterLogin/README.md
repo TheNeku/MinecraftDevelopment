@@ -44,11 +44,17 @@ I giocatori premium beneficiano di una protezione avanzata basata sull'UUID, ren
 ## 📸 Foto e Video
 
 
-
+### 🔎 Fase di registrazione
 https://github.com/user-attachments/assets/dc456d99-9119-4a2e-94e4-2e08cba0db3c
 
+### 🔋 Fase di Login
 https://github.com/user-attachments/assets/7a5ef6cb-882a-41b8-ad90-d94ad90b78b8
 
+### 🤖 AutoLogin
 https://github.com/user-attachments/assets/b272ea91-a6db-4ef1-b71b-243e9b092f2d
+
+### 🛑 Accesso cracked su account premium
+![image](https://github.com/user-attachments/assets/b47f5dc5-6815-47f2-8714-7710bc28aa93)
+
 
 
