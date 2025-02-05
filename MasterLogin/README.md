@@ -74,7 +74,7 @@ https://discord.gg/mc-master
 ### Gestione Utenti
 - I dati di login (username, password, flag premium, IP ecc.) vengono salvati in MySQL.
 
-- **Esempio di una Tabella Principale**:
+- **Esempio di una Tabella per i giocatori**:
 ```
     CREATE TABLE IF NOT EXISTS `users` (
         `id` INT AUTO_INCREMENT PRIMARY KEY,
