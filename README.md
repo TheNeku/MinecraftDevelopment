@@ -14,4 +14,4 @@ Alcuni plugin **verranno pubblicati** in forma completa o parziale, altri rimarr
 
 ---
 
-**~ it@MasterDevelopment**
+** ~ it@MasterDevelopment **
