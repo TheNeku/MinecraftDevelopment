@@ -24,7 +24,7 @@ Il tutto si integra con **Velocity Proxy**, sfruttandone eventi chiave (PreLogin
 > Non viene utilizzata alcuna verifica integrata di Velocity (come Auth-API interne), ma controlli su database MySQL e tramite API Mojang.
 
 Se sei interessato a vedere MasterLogin in azione, unisciti al server McMaster Discord:
-https://discord.gg/bGb4dph8HC
+https://discord.gg/mc-master
 
 ---
 
