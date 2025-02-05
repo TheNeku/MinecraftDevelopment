@@ -1,9 +1,17 @@
 # [🛠️] Sviluppo Minecraft
 
-Benvenuto! In questo repository troverai tutti i miei lavori relativi a Minecraft. Vorrei sottolineare che il codice sorgente non sarà reso pubblico per tutti i progetti. Probabilmente la maggior parte dei plugin sarà dedicata al mio server Minecraft MasterLogin.  
-Alcuni plugin presenti in questo repository saranno pubblicati, altri sono solo idee nel caso volessi commissionarmi dei plugin custom 😜.
+Benvenuto! In questo repository troverai **tutti i miei lavori relativi a Minecraft**.  
+Vorrei sottolineare che **il codice sorgente non sarà reso pubblico** per tutti i progetti. La maggior parte dei plugin qui contenuti è dedicata al mio **server Minecraft “MasterLogin”**.
+
+Alcuni plugin **verranno pubblicati** in forma completa o parziale, altri rimarranno solo **idee** e **prototipi**, qualora decidessi di accettare commissioni per plugin custom.  
+*(Se sei interessato, contattami in privato!)*
+
+---
 
 ## ⚡ Contattami
-Puoi contattarmi su Discord: theneku
+- **Discord**: *theneku*  
+*(È il metodo più rapido per avere risposte e discutere di progetti o commissioni.)*
 
-~ eu@MasterDevelopment
+---
+
+**~ it@MasterDevelopment**
