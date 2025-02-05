@@ -73,8 +73,10 @@ https://discord.gg/bGb4dph8HC
 
 ### Gestione Utenti
 - I dati di login (username, password, flag premium, IP ecc.) vengono salvati in MySQL.
-- **Tabella Principale** (esempio):
-    CREATE TABLE IF NOT EXISTS `masterlogin_users` (
+
+- **Esempio di una Tabella Principale**:
+```
+    CREATE TABLE IF NOT EXISTS `users` (
         `id` INT AUTO_INCREMENT PRIMARY KEY,
         `username` VARCHAR(16) NOT NULL,
         `uuid` VARCHAR(36) NOT NULL,
@@ -83,11 +85,12 @@ https://discord.gg/bGb4dph8HC
         `last_ip` VARCHAR(45) DEFAULT NULL,
         `register_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
+```
 
-### Controllo Premium
+### Controllo Premium (Spiegazione Semplificata)
 - Durante la fase di registrazione o al primo login, il plugin interroga le API Mojang
-  usando una GET su:
-  https://api.mojang.com/users/profiles/minecraft/<username>
+  usando una GET sulle Api Mojang
+
 - Se la risposta fornisce un UUID valido, il campo `premium` nel database viene segnato come TRUE.
 - Anche nelle sessioni successive, il plugin verifica la coerenza di UUID e username con quelli di Mojang.
 
