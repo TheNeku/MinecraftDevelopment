@@ -6,43 +6,94 @@
 ```
 
 ## [⚠ DISCLAIMER ⚠]
-Questo plugin è COMPLETAMENTE CUSTOM ed è protetto da copyright! © Mc-Master 2024. Tutti i diritti riservati.
+Questo plugin è COMPLETAMENTE CUSTOM ed è protetto da copyright © Mc-Master 2024.
+Tutti i diritti sono riservati: è vietata la redistribuzione o condivisione del codice senza autorizzazione.
 
-MasterLogin è un plugin avanzato per la gestione dell'autenticazione, la registrazione dei giocatori e protezioni AntiVPN e AntiExploit su server Minecraft basati su un proxy Velocity.
-Questo plugin è progettato per garantire un'esperienza utente sicura e intuitiva, integrandosi perfettamente con sistemi premium e craccati.
-Per crea il plugin ho usato la versione base delle VelocityAPI, in caso a qualcuno serva la guida delle API può consultarle [qui](https://jd.papermc.io/velocity/3.4.0/index.html).
-Tengo a specificare che non ho usato alcun tipo di verifica via API Velocity, ma verifiche su database interno, oppure via API Mojang (url).
-Ricordo che questo, come altri miei plugin, è in uso sul mio server Minecraft: McMaster! Se sei interessato, considera di unirti al [server discord](https://discord.gg/bGb4dph8HC).
+---
+
+# 👉 Introduzione
+**MasterLogin** è un plugin avanzato creato per gestire in maniera sicura:
+- **Autenticazione** e **Registrazione** dei giocatori
+- **Protezione AntiVPN** e **AntiExploit**
+- **Supporto** per server sia *premium* che *cracked*
+
+Il tutto si integra con **Velocity Proxy**, sfruttandone eventi chiave (PreLogin e Login) per garantire controlli approfonditi.
+
+> Nota: il plugin si basa sulle Velocity API (versione base). Se vuoi maggiori dettagli sulle API stesse, visita la documentazione ufficiale:
+> https://jd.papermc.io/velocity/3.4.0/index.html  
+> Non viene utilizzata alcuna verifica integrata di Velocity (come Auth-API interne), ma controlli su database MySQL e tramite API Mojang.
+
+Se sei interessato a vedere MasterLogin in azione, unisciti al server McMaster Discord:
+https://discord.gg/bGb4dph8HC
+
+---
 
 ## 📊 Features
 
 ### 👤 Gestione dei giocatori
 
-`Gestione dei giocatori cracked` Per evitare frodi sugli account premium, il plugin verifica se un giocatore con uno username premium tenta di accedere con un UUID craccato. In tal caso, l'accesso viene bloccato per proteggere il reale proprietario dell'account. Un giocatore è considerato premium solo se sia l'UUID che lo username corrispondono a un account autentico. Questi controlli vengono effettuati sia durante la fase di PreLogin che nella fase di Login.
+#### Gestione dei giocatori cracked
+- Controllo approfondito dell’UUID associato a uno username.
+- Se lo username risulta essere di un account premium (verifica via API Mojang), ma sta arrivando con un UUID craccato, l’accesso viene bloccato immediatamente.
+- La verifica si svolge sia in PreLogin (controllo preliminare) che in Login (per riconfermare i dati).
 
-`Registrazione e Autenticazione` Ogni giocatore deve registrarsi al primo accesso per garantire la sicurezza del proprio account. La registrazione richiede la scelta di una password personale, che sarà necessaria per autenticarsi ad ogni login.
-I giocatori premium beneficiano di una protezione avanzata basata sull'UUID, rendendo la password un'ulteriore misura di sicurezza. Tuttavia, per gli account premium, il rischio maggiore è rappresentato da frodi sugli account Microsoft, poiché l'accesso è già protetto dall'UUID.
+#### Registrazione e Autenticazione
+- Registrazione obbligatoria al primo accesso:
+  il giocatore sceglie una password e la conferma.
+- Ad ogni ingresso, viene richiesta la password per confermare l’identità.
+- Gli account premium usufruiscono di un controllo aggiuntivo:
+  oltre alla password, è presente un vincolo UUID <-> Username: se corrisponde a un profilo Microsoft valido, l’account è segnato come “premium”.
 
-`AutoLogin` Disponibile esclusivamente per gli utenti premium, questa funzione consente di abilitare l'accesso automatico senza dover inserire ogni volta la password. L'opzione garantisce comunque un elevato livello di sicurezza, poichè i cracked non possono comuqnue accedere ad account premium.
+#### AutoLogin
+- Disponibile solo per utenti premium verificati.
+- Consente al giocatore di saltare l’inserimento della password.
+- Non impatta sulla sicurezza: un account cracked non potrà mai usare AutoLogin per entrare in un account premium.
 
-`Timeout di Autenticazione` Implementa un sistema di timeout che disconnette i giocatori se non completano l'autenticazione entro 60 secondi dall'accesso.
+#### Timeout di Autenticazione
+- Se il giocatore non completa l’accesso entro 60 secondi, il plugin forza la disconnessione.
+- Garantisce che utenti inattivi o bot non restino collegati troppo a lungo in stato di “limbo”.
 
-`Session Management` Traccia lo stato di login e di invio di packets dei giocatori durante la sessione, garantendo una gestione dinamica delle connessioni e dei packets stessi.
+#### Session Management
+- Tiene traccia dello stato di login e dei packets inviati dal giocatore durante la sessione.
+- Permette di monitorare e gestire in modo dinamico eventuali richieste sospette, potenziali exploit o la riconnessione di utenti “ibridi”.
+
+---
 
 ### 🖥️ Interfacce
+- **Messaggi Personalizzati**:
+  vengono mostrati in chat e in action bar,
+  fornendo istruzioni chiare per registrazione e login.
+- **Title e Subtitle**:
+  utilizza la Adventure API di Velocity per mostrare messaggi in overlay sullo schermo,
+  utili per avvisi immediati durante l’autenticazione e la registrazione.
 
-`Messaggi Personalizzati` Mostra messaggi in chat e action bar per guidare i giocatori attraverso le fasi di registrazione e login.
-
-`Title e Subtitle` Utilizza l'Adventure API per mostrare messaggi dinamici durante l'autenticazione e la registrazione.
+---
 
 ## ☁️ Integrazione Database
 
-`Gestione Utenti` Salva le informazioni di login e registrazione nel database. Supporta solo MySQL poichè utilizzo questo database.
+### Gestione Utenti
+- I dati di login (username, password, flag premium, IP ecc.) vengono salvati in MySQL.
+- **Tabella Principale** (esempio):
+    CREATE TABLE IF NOT EXISTS `masterlogin_users` (
+        `id` INT AUTO_INCREMENT PRIMARY KEY,
+        `username` VARCHAR(16) NOT NULL,
+        `uuid` VARCHAR(36) NOT NULL,
+        `password_hash` VARCHAR(255) NOT NULL,
+        `premium` BOOLEAN DEFAULT FALSE,
+        `last_ip` VARCHAR(45) DEFAULT NULL,
+        `register_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
 
-`Controllo Premium` Utilizza l'API Mojang per verificare lo stato premium degli utenti e gestire UUID personalizzati per la sicurezza.
+### Controllo Premium
+- Durante la fase di registrazione o al primo login, il plugin interroga le API Mojang
+  usando una GET su:
+  https://api.mojang.com/users/profiles/minecraft/<username>
+- Se la risposta fornisce un UUID valido, il campo `premium` nel database viene segnato come TRUE.
+- Anche nelle sessioni successive, il plugin verifica la coerenza di UUID e username con quelli di Mojang.
+
+---
 
 ## 📸 Foto e Video
-
 
 ### 🔎 Fase di registrazione
 https://github.com/user-attachments/assets/dc456d99-9119-4a2e-94e4-2e08cba0db3c
@@ -54,7 +105,29 @@ https://github.com/user-attachments/assets/7a5ef6cb-882a-41b8-ad90-d94ad90b78b8
 https://github.com/user-attachments/assets/b272ea91-a6db-4ef1-b71b-243e9b092f2d
 
 ### 🛑 Accesso cracked su account premium
-![image](https://github.com/user-attachments/assets/b47f5dc5-6815-47f2-8714-7710bc28aa93)
+https://github.com/user-attachments/assets/b47f5dc5-6815-47f2-8714-7710bc28aa93
 
+---
 
+## ⚙ Tecnologie Utilizzate
+- **Linguaggio**: Java 17
+- **Framework Proxy**: Velocity (3.4.0)
+- **Adventure API**: Per i messaggi Title e Subtitle
+- **MySQL**: Per la persistenza dei dati
+- **Mojang API**: Per verifiche premium
 
+---
+
+## ✅ Conclusione
+**MasterLogin** si propone come soluzione completa per l’autenticazione su server basati su Velocity, con attenzione a:
+- Sicurezza (AntiVPN, AntiExploit, blocco accessi sospetti)
+- Flessibilità (supporta premium & cracked)
+- Esperienza Utente (messaggi chiari e sistema AutoLogin)
+
+Se vuoi assistere a tutte queste funzionalità in azione, ti aspettiamo sul server McMaster e nella community Discord:
+https://discord.gg/bGb4dph8HC
+
+> Ricorda: Questo plugin è privato e non è distribuito pubblicamente. Tutti i diritti riservati.
+> Può essere visionato ma non usato o copiato su altri server senza consenso dell’autore.
+
+**Buon divertimento e buona sicurezza con MasterLogin!**
