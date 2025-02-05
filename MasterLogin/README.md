@@ -116,8 +116,8 @@ https://github.com/user-attachments/assets/b47f5dc5-6815-47f2-8714-7710bc28aa93
 - **Linguaggio**: Java 17
 - **Framework Proxy**: Velocity (3.4.0)
 - **Adventure API**: Per i messaggi Title e Subtitle
-- **MySQL**: Per la persistenza dei dati
-- **Mojang API**: Per verifiche premium
+- **MySQL**: Per la gestione dei dati
+- **Mojang API**: Per verifiche sui giocatori
 
 ---
 
