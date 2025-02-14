@@ -1,8 +1,8 @@
 # 🚀 **CYBERLOGIN** | **The Most Secure Authentication Plugin for Minecraft**  
 
 ```
-💘 **by TheNeku - CyberDevelopment**  
-🌐 **Discord:** discord.cyberdev.eu 
+💘 by TheNeku - CyberDevelopment 
+🌐 Discord: discord.cyberdev.eu 
 ```
 
 ---
