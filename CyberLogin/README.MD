@@ -1,10 +1,11 @@
-# 🚀 **CYBERLOGIN** | **Secure Authentication for Minecraft**  
+# 🚀 **CYBERLOGIN** | **The Most Secure Authentication Plugin for Minecraft**  
 
 ```
 💘 **by TheNeku - CyberDevelopment**  
 🌐 **Discord:** [discord.cyberdev.eu](https://discord.cyberdev.eu)  
 🛒 **Coming soon on BuiltByBits!**  
 ```
+
 ---
 
 ## ⚠ **DISCLAIMER**  
@@ -15,43 +16,35 @@
 
 # 👉 **Introduction**  
 
-**CyberLogin** is a cutting-edge authentication plugin designed to provide **unmatched security** for both **premium** and **cracked** servers.  
-It seamlessly integrates with all major proxy and standalone server platforms:  
+**CyberLogin** is a **multi-platform authentication plugin** designed to protect **premium and cracked** servers with advanced security systems.  
+It ensures **account integrity**, **prevents exploits**, and **enhances server security** by leveraging a robust authentication system.  
 
+💡 **CyberLogin is fully compatible with:**  
 ✅ **Velocity Proxy** *(3.4.0+)*  
 ✅ **BungeeCord Proxy** *(1.8 - 1.20.4+)*  
 ✅ **Bukkit / Spigot / Paper** *(1.8 - 1.20.4+)*  
 
-### 🔒 **Key Security Features:**  
-✔ **Secure registration & login system** for cracked users  
-✔ **AutoLogin for premium users** *(no password required!)*  
-✔ **Advanced AntiVPN & AntiExploit protection**  
-✔ **Mojang API-based UUID verification to prevent spoofing**  
-✔ **MySQL / H2 database support for seamless account management**  
-
-> **Note:** CyberLogin utilizes the **official APIs** of Velocity and BungeeCord, ensuring a **lightweight, dependency-free** experience.  
-> 📖 **Velocity API:** [View Documentation](https://jd.papermc.io/velocity/3.4.0/index.html)  
-> 📖 **BungeeCord API:** [View Documentation](https://papermc.io/api-docs/bungeecord/latest/)  
-
-💬 **Want to see CyberLogin in action?**  
-➡️ **Join our Discord community:** [discord.cyberdev.eu](https://discord.cyberdev.eu)  
-
 ---
 
-# 📊 **Key Features**  
+## 🔥 **How CyberLogin Works**  
 
-## 👤 **Player Management**  
-✔ **Instant blocking of cracked users attempting to log in with a premium username** *(ensuring premium accounts remain protected)*  
-✔ **Mandatory registration for cracked users** *(requiring a password upon first login)*  
-✔ **AutoLogin for verified premium accounts** *(removing the need for repeated login attempts)*  
-✔ **60-second authentication timeout** *(players who fail to authenticate within this timeframe are automatically disconnected)*  
-✔ **Real-time session tracking** *(preventing exploits and unauthorized reconnections)*  
+### 🔐 **Authentication System**  
+1️⃣ **Cracked users must register** with a secure **BCrypt-hashed password**.  
+2️⃣ **Returning cracked users must log in** using their password before they can interact with the server.  
+3️⃣ **Premium users are verified** using **Mojang API UUID checks**, eliminating the need for passwords.  
+4️⃣ **AutoLogin** is enabled for premium users, allowing seamless entry if their Mojang UUID matches the database.  
 
----
+### 🚨 **Security & Anti-Exploit**  
+✔ **Instant detection of cracked users using premium usernames** *(prevents unauthorized access attempts)*.  
+✔ **Advanced AntiVPN system** *(detects suspicious IPs and denies login if necessary)*.  
+✔ **Session tracking** *(prevents session hijacking, unauthorized login attempts, and exploit abuse)*.  
+✔ **Rate-limited authentication** *(prevents brute-force login attempts by enforcing login delays)*.  
+✔ **Customizable login timeout** *(default: 60 seconds, after which players are disconnected if they fail to authenticate)*.  
 
-# 🔀 **Multi-Platform Compatibility**  
+### 🌍 **Cross-Platform Compatibility**  
+CyberLogin **automatically detects the platform** it's running on (Velocity, BungeeCord, or Spigot) and adapts its behavior accordingly.  
 
-| **Feature**            | **Velocity & BungeeCord** | **Spigot / Bukkit** |
+| **Feature** | **Velocity & BungeeCord** | **Spigot / Bukkit** |
 |------------------------|--------------------------|----------------------|
 | Secure Registration/Login | ✅ | ✅ |
 | AutoLogin for Premium Players | ✅ | ✅ |
@@ -61,24 +54,37 @@ It seamlessly integrates with all major proxy and standalone server platforms:
 | MySQL / H2 Database Support | ✅ | ✅ |
 | PlaceholderAPI Support | ❌ | ✅ |
 
-🚨 **Important:**  
+🚨 **Important Notes:**  
 - **Velocity & BungeeCord Versions:** Support **automatic server switching** after login.  
-- **Spigot/Bukkit Version:** **Does NOT support server switching** *(players stay in the same server after logging in).*  
+- **Spigot/Bukkit Version:** **Does NOT support server switching** *(players remain on the current server after logging in).*  
 
 ---
 
-# ☁ **Database & Security**  
+# 🏆 **Core Features Explained**  
 
-### 🛠 **Seamless Database Integration**  
-✔ **MySQL support** *(perfect for multi-server setups – recommended for Velocity/BungeeCord)*  
-✔ **H2 support** *(zero-configuration local database, ideal for standalone servers)*  
+## 👤 **Player Account Management**  
+### 🔄 **Premium & Cracked Account Handling**  
+✔ **Mojang API verification** ensures that premium players always log in under their valid UUID.  
+✔ **Cracked players must create passwords**, stored securely using **BCrypt encryption**.  
+✔ **Cracked players cannot impersonate premium usernames** *(if a username is detected as premium, the player must log in through Mojang authentication)*.  
 
-🚀 **No setup required!** The plugin **automatically creates all necessary tables** upon startup.  
-💡 **You don’t need to configure the database manually!**  
+### 🔓 **AutoLogin for Premium Players**  
+✔ If a **premium user logs in using their Mojang account**, CyberLogin automatically recognizes them.  
+✔ **No password required** for future logins.  
+✔ **UUID verification** prevents unauthorized login attempts with premium usernames.  
 
 ---
 
-# 🎮 **Commands & Permissions**  
+# ☁ **Database & Storage**  
+
+### 🛠 **MySQL & H2 Support**  
+✔ **MySQL** *(multi-server support, recommended for Velocity/BungeeCord)*.  
+✔ **H2 Database** *(lightweight, local storage for standalone servers - Spigot/Bukkit compatible)*.  
+✔ **The plugin automatically creates all necessary tables on first startup** *(no manual database setup required!)*.  
+
+---
+
+# 📢 **Command System & Permissions**  
 
 CyberLogin includes an intuitive command system for **easy account management:**  
 
@@ -90,14 +96,14 @@ CyberLogin includes an intuitive command system for **easy account management:**
 | `/changepassword <old> <new>` | Change the user’s password | No permission required |
 | `/autologin` | Enable/disable AutoLogin for premium users | `clogin.autologin` |
 
-🚨 **Important Notes:**  
+🚨 **Platform Differences:**  
 - **Velocity/BungeeCord:** Commands **must** be executed on the **proxy server**.  
 - **Spigot/Bukkit:** Commands **are executed locally** on the **same server**.  
 
 ---
 
 # 🛒 **Coming Soon to BuiltByBits!**  
-💎 **🔗 BuiltByBits - Coming soon
+💎 **🔗 [BuiltByBits Store - Coming Soon](#) 🔗**
 
 📢 **Need assistance?** Join our Discord community!  
 🔗 **[discord.cyberdev.eu](https://discord.cyberdev.eu)**  
