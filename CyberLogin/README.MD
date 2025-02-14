@@ -2,8 +2,7 @@
 
 ```
 💘 **by TheNeku - CyberDevelopment**  
-🌐 **Discord:** [discord.cyberdev.eu](https://discord.cyberdev.eu)  
-🛒 **Coming soon on BuiltByBits!**  
+🌐 **Discord:** discord.cyberdev.eu 
 ```
 
 ---
