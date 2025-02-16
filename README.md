@@ -1,17 +1,27 @@
-# [🛠️] Sviluppo Minecraft
+Ecco il README.md corretto in inglese, adattato per i server Minecraft su cui lavori:
 
-Benvenuto! In questo repository troverai **tutti i miei lavori relativi a Minecraft**.  
-Vorrei sottolineare che **il codice sorgente non sarà reso pubblico** per tutti i progetti. La maggior parte dei plugin qui contenuti è dedicata al mio **server Minecraft “MasterLogin”**.
-
-Alcuni plugin **verranno pubblicati** in forma completa o parziale, altri rimarranno solo **idee** e **prototipi**, qualora decidessi di accettare commissioni per plugin custom.  
-*(Se sei interessato, contattami in privato!)*
 
 ---
 
-## ⚡ Contattami
-- **Discord**: *theneku*  
-*(È il metodo più rapido per avere risposte e discutere di progetti o commissioni.)*
+[🛠️] Minecraft Development
+
+Welcome! This repository showcases all my Minecraft-related projects.
+Please note that not all source code will be publicly available. Most of the plugins here are developed for the Minecraft servers I work on.
+
+Some plugins will be released in full or partial form, while others will remain concepts and prototypes, especially if I decide to take on custom plugin commissions.
+(If you're interested, feel free to reach out!)
+
 
 ---
 
-~ it@MasterDevelopment
+⚡ Contact Me
+
+Discord: theneku
+(The fastest way to get a response, discuss projects, or request commissions.)
+
+
+
+---
+
+~ eu@CyberDevelopment
+
