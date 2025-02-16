@@ -1,8 +1,3 @@
-Ecco il README.md corretto in inglese, adattato per i server Minecraft su cui lavori:
-
-
----
-
 [🛠️] Minecraft Development
 
 Welcome! This repository showcases all my Minecraft-related projects.
