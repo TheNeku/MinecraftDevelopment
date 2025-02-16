@@ -28,7 +28,7 @@ It ensures **account integrity**, **prevents exploits**, and **enhances server s
 ## 🔥 **How CyberLogin Works**  
 
 ### 🔐 **Authentication System**  
-1️⃣ **Cracked users must register** with a secure **BCrypt-hashed password**.  
+1️⃣ **Users must register** with a secure **BCrypt-hashed password**.  
 2️⃣ **Returning cracked users must log in** using their password before they can interact with the server.  
 3️⃣ **Premium users are verified** using **Mojang API UUID checks**, eliminating the need for passwords.  
 4️⃣ **AutoLogin** is enabled for premium users, allowing seamless entry if their Mojang UUID matches the database.  
