@@ -9,7 +9,7 @@ public class Loader {
         String platform = detectPlatform();
 
         if (platform == null) {
-            CyberLoginLogger.logError("Piattaforma non riconosciuta! Il plugin verrà disattivato.");
+            CyberLoginLogger.logError("Platform not recognized! Disabling the plugin!");
             return;
         }
 
@@ -35,7 +35,7 @@ public class Loader {
             Object instance = clazz.getDeclaredConstructor().newInstance();
             clazz.getMethod("enable", pluginInstance.getClass()).invoke(instance, pluginInstance);
         } catch (Exception e) {
-            CyberLoginLogger.logError("Errore nel caricamento di " + className + ": " + e.getMessage());
+            CyberLoginLogger.logError("Could not load " + className + ": " + e.getMessage());
         }
     }
 
