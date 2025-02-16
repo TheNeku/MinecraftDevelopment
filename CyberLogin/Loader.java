@@ -1,3 +1,5 @@
+//To help you understand how the mulkt-platform system works, I'll put it here! Thanks in dm xD
+
 package eu.neku.cyberlogin.common;
 
 import eu.neku.cyberlogin.common.utils.CyberLoginLogger;
