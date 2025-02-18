@@ -54,7 +54,7 @@ CyberLogin **automatically detects the platform** it's running on (Velocity, Bun
 | PlaceholderAPI Support | ❌ | ✅ |
 
 🚨 **Important Notes:**  
-- **Velocity & BungeeCord Versions:** Support **automatic server switching** after login.  
+- **Velocity & BungeeCord Versions:** Support **automatic server switching** after login. *(You can set It by config.yml)*
 - **Spigot/Bukkit Version:** **Does NOT support server switching** *(players remain on the current server after logging in).*  
 
 ---
