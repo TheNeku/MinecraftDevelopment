@@ -1,5 +1,7 @@
 //I want to give you an idea for making cute Loggers! Maybe you can take inspiration from here 😉(For [ASCII FONT](https://manytools.org/hacker-tools/ascii-banner/))
 
+
+//Semplified Class
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
