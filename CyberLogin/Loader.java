@@ -2,49 +2,49 @@
 
 package eu.neku.cyberlogin.common;
 
-import eu.neku.cyberlogin.common.utils.CyberLoginLogger;
+import eu.neku.cyberlogin.common.utils.CyberLogger;
+import eu.neku.cyberlogin.spigot.SpigotLoader;
+import eu.neku.cyberlogin.bungee.BungeeLoader;
+import eu.neku.cyberlogin.velocity.VelocityLoader;
 
 public class Loader {
-    public static void onEnable(Object pluginInstance) {
+
+    private static Object platformInstance;
+
+    public static void onEnable(Object instance) {
+        CyberLogger.printBanner();
+        platformInstance = instance;
         String platform = detectPlatform();
 
-        if (platform == null) {
-            CyberLoginLogger.logError("Platform not recognized! Disabling the plugin!");
-            return;
+        if (platform != null) {
+            CyberLogger.success("🌐 Detected " + platform);
+        } else {
+            CyberLogger.error("❌ No valid platform detected. Plugin disabled.");
+        }
+    }
+
+    public static void onDisable() {
+        if (platformInstance instanceof SpigotLoader spigotLoader) {
+            spigotLoader.onDisable();
+        } else if (platformInstance instanceof BungeeLoader bungeeLoader) {
+            bungeeLoader.onDisable();
+        } else if (platformInstance instanceof VelocityLoader velocityLoader) {
+            velocityLoader.onDisable();
         }
 
-        CyberLoginLogger.printStartupBanner(platform);
-        loadPlatformClass(platform, pluginInstance);
+        CyberLogger.warn("🔻 CyberLogin has been disabled.");
     }
 
     private static String detectPlatform() {
-        if (isClassPresent("org.bukkit.Bukkit")) {
-            return "Spigot";
-        } else if (isClassPresent("net.md_5.bungee.api.ProxyServer")) {
+        String packageName = platformInstance.getClass().getPackageName().toLowerCase();
+
+        if (packageName.contains("bungee")) {
             return "BungeeCord";
-        } else if (isClassPresent("com.velocitypowered.api.proxy.ProxyServer")) {
+        } else if (packageName.contains("spigot") || packageName.contains("bukkit")) {
+            return "Spigot";
+        } else if (packageName.contains("velocity")) {
             return "Velocity";
         }
         return null;
-    }
-
-    private static void loadPlatformClass(String platform, Object pluginInstance) {
-        String className = "eu.neku.cyberlogin." + platform.toLowerCase() + ".Loader" + platform;
-        try {
-            Class<?> clazz = Class.forName(className);
-            Object instance = clazz.getDeclaredConstructor().newInstance();
-            clazz.getMethod("enable", pluginInstance.getClass()).invoke(instance, pluginInstance);
-        } catch (Exception e) {
-            CyberLoginLogger.logError("Could not load " + className + ": " + e.getMessage());
-        }
-    }
-
-    private static boolean isClassPresent(String className) {
-        try {
-            Class.forName(className);
-            return true;
-        } catch (ClassNotFoundException ignored) {
-            return false;
-        }
     }
 }
