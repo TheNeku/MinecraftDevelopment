@@ -28,64 +28,70 @@ It ensures **account integrity**, **prevents exploits**, and **enhances server s
 ## 🔥 **How CyberLogin Works**  
 
 ### 🔐 **Authentication System**  
-1️⃣ **Users must register** with a secure **BCrypt-hashed password**.  
-2️⃣ **Returning cracked users must log in** using their password before they can interact with the server.  
-3️⃣ **Premium users are verified** using **Mojang API UUID checks**, eliminating the need for passwords.  
-4️⃣ **AutoLogin** is enabled for premium users, allowing seamless entry if their Mojang UUID matches the database.  
+1️⃣ Players register with a highly secure **hashed password.**
+2️⃣ **Returning cracked users must log in** before gaining access.
+3️⃣ **Premium users are verified via Mojang API UUID checks**. *You can disable premium registration by config.yml)*
+4️⃣ **AutoLogin** enables premium users to join without manual authentication if their Mojang UUID matches the database.
 
-### 🚨 **Security & Anti-Exploit**  
-✔ **Instant detection of cracked users using premium usernames** *(prevents unauthorized access attempts)*.  
-✔ **Advanced AntiVPN system** *(detects suspicious IPs and denies login if necessary)*.  
-✔ **Session tracking** *(prevents session hijacking, unauthorized login attempts, and exploit abuse)*.  
-✔ **Rate-limited authentication** *(prevents brute-force login attempts by enforcing login delays)*.  
-✔ **Customizable login timeout** *(default: 60 seconds, after which players are disconnected if they fail to authenticate)*.  
+### 🚨 **Security & Exploit Protection**  
+✔ Prevents cracked users from using premium usernames (avoiding unauthorized impersonation).
+✔ IP-based session tracking (detects suspicious logins & prevents session hijacking).
+✔ Anti-VPN System (optional, blocks proxy-based logins to prevent abuse).
+✔ Rate-limited login attempts (prevents brute-force attacks by enforcing cooldowns).
+✔ Configurable login timeout (disconnects unverified users after X seconds).
+✔ Secure database storage.
+
+### 📂 **Configurable Options**
+✔ **Fully configurable AuthSystem by config.yml** *(Uploaded in the rep)* **YOU CAN SET EVERYTHING IN THIS PLUGIN xD**
+✔ **Fully customizable messages (Supports MiniMessage formatting).**
+✔ **Authentication timeout settings (e.g., auto-kick after X seconds).**
+✔ **Toggle features like AutoLogin, premium check, and session management.**
+✔ **Multi-language support (planned for future updates).**
 
 ### 🌍 **Cross-Platform Compatibility**  
-CyberLogin **automatically detects the platform** it's running on (Velocity, BungeeCord, or Spigot) and adapts its behavior accordingly.  
+CyberLogin **automatically detects the platform** and adjusts its functionality accordingly.  
 
 | **Feature** | **Velocity & BungeeCord** | **Spigot / Bukkit** |
-|------------------------|--------------------------|----------------------|
+|------------|--------------------------|----------------------|
 | Secure Registration/Login | ✅ | ✅ |
 | AutoLogin for Premium Players | ✅ | ✅ |
 | Automatic Server Switching | ✅ | ❌ *(Not supported)* |
 | Session Management | ✅ | ✅ |
-| Anti-Spoofing Protection | ✅ | ✅ |
 | MySQL / H2 Database Support | ✅ | ✅ |
-| PlaceholderAPI Support | ❌ | ✅ |
+| API Support (PL Integrated) | ✅ | ✅ |
 
-🚨 **Important Notes:**  
-- **Velocity & BungeeCord Versions:** Support **automatic server switching** after login. *(You can set It by config.yml)*
-- **Spigot/Bukkit Version:** **Does NOT support server switching** *(players remain on the current server after logging in).*  
+🚨 **Notes:**  
+- **Velocity & BungeeCord:** Supports **automatic server switching** after login *(configurable in `config.yml`)*.  
+- **Spigot/Bukkit:** Players remain on the same server after authentication.  
 
 ---
 
-# 🏆 **Core Features Explained**  
+# 🏆 **Core Features**  
 
-## 👤 **Player Account Management**  
-### 🔄 **Premium & Cracked Account Handling**  
-✔ **Mojang API verification** ensures that premium players always log in under their valid UUID.  
-✔ **Cracked players must create passwords**, stored securely using **BCrypt encryption**.  
-✔ **Cracked players cannot impersonate premium usernames** *(if a username is detected as premium, the player must log in through Mojang authentication)*.  
+## 👤 **Player Authentication & Security**  
+✔ Mojang API verification ensures premium players always log in with their valid UUID.
+✔ Cracked players must register with passwords, secured using hashing.
+✔ Cracked players cannot impersonate premium users, ensuring a fair and secure environment.
 
 ### 🔓 **AutoLogin for Premium Players**  
-✔ If a **premium user logs in using their Mojang account**, CyberLogin automatically recognizes them.  
-✔ **No password required** for future logins.  
-✔ **UUID verification** prevents unauthorized login attempts with premium usernames.  
+✔ Mojang authentication removes password requirements for premium players.
+✔ UUID-based security prevents unauthorized access.
+✔ Fully configurable AutoLogin system by config.yml
 
 ---
 
 # ☁ **Database & Storage**  
 
 ### 🛠 **MySQL & H2 Support**  
-✔ **MySQL** *(multi-server support, recommended for Velocity/BungeeCord)*.  
-✔ **H2 Database** *(lightweight, local storage for standalone servers - Spigot/Bukkit compatible)*.  
-✔ **The plugin automatically creates all necessary tables on first startup** *(no manual database setup required!)*.  
+✔ **MySQL** *(multi-server support, recommended for proxy networks)*.  
+✔ **H2 Database** *(lightweight, for single-server use)*.  
+✔ **Automatic table creation and database setup** *(no manual SQL required!)*.  
 
 ---
 
-# 📢 **Command System & Permissions**  
+# 📢 **Commands & Permissions**  
 
-CyberLogin includes an intuitive command system for **easy account management:**  
+CyberLogin features a **simple yet powerful** command system:
 
 | **Command**               | **Description**                                  | **Permission**           |
 |---------------------------|------------------------------------------------|--------------------------|
@@ -101,10 +107,10 @@ CyberLogin includes an intuitive command system for **easy account management:**
 
 ---
 
-# 🛒 **Coming Soon to BuiltByBits!**  
-💎 **🔗 [BuiltByBits Store - Coming Soon](#) 🔗**
+# 🛒 **Available Soon on BuiltByBits!**  
+💎 **🔗 [BuiltByBits Store - Coming Soon](#) 🔗**  
 
-📢 **Need assistance?** Join our Discord community!  
+📢 **Need support? Join our Discord community!**  
 🔗 **[discord.cyberdev.eu](https://discord.cyberdev.eu)**  
 
 ---
