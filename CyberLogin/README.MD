@@ -36,19 +36,20 @@ It ensures **account integrity**, **prevents exploits**, and **enhances server s
 
 
 ### 🚨 **Security & Exploit Protection**  
-✔ Prevents cracked users from using premium usernames (avoiding unauthorized impersonation).
-✔ IP-based session tracking (detects suspicious logins & prevents session hijacking).
-✔ Anti-VPN System (optional, blocks proxy-based logins to prevent abuse).
-✔ Rate-limited login attempts (prevents brute-force attacks by enforcing cooldowns).
-✔ Configurable login timeout (disconnects unverified users after X seconds).
+
+✔ Prevents cracked users from using premium usernames (avoiding unauthorized impersonation).<br>
+✔ IP-based session tracking (detects suspicious logins & prevents session hijacking).<br>
+✔ Anti-VPN System (optional, blocks proxy-based logins to prevent abuse).<br>
+✔ Rate-limited login attempts (prevents brute-force attacks by enforcing cooldowns).<br>
+✔ Configurable login timeout (disconnects unverified users after X seconds).<br>
 ✔ Secure database storage.
 
 ### 📂 **Configurable Options**
-✔ **Fully configurable AuthSystem by config.yml** *(Uploaded in the rep)* **YOU CAN SET EVERYTHING IN THIS PLUGIN xD**
-✔ **Fully customizable messages (Supports MiniMessage formatting).**
-✔ **Authentication timeout settings (e.g., auto-kick after X seconds).**
-✔ **Toggle features like AutoLogin, premium check, and session management.**
-✔ **Multi-language support (planned for future updates).**
+✔ **Fully configurable AuthSystem by config.yml** *(Uploaded in the rep)* **YOU CAN SET EVERYTHING IN THIS PLUGIN xD**<br>
+✔ **Fully customizable messages (Supports MiniMessage formatting).**<br>
+✔ **Authentication timeout settings (e.g., auto-kick after X seconds).**<br>
+✔ **Toggle features like AutoLogin, premium check, and session management.**<br>
+✔ **Multi-language support (planned for future updates).**<br>
 
 ### 🌍 **Cross-Platform Compatibility**  
 CyberLogin **automatically detects the platform** and adjusts its functionality accordingly.  
