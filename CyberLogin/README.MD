@@ -29,16 +29,24 @@ It ensures **account integrity**, **prevents exploits**, and **enhances server s
 
 ### 🔐 **Authentication System**  
 1️⃣ Players register with a highly secure **hashed password.**
+
 2️⃣ **Returning cracked users must log in** before gaining access.
+
 3️⃣ **Premium users are verified via Mojang API UUID checks**. *You can disable premium registration by config.yml)*
+
 4️⃣ **AutoLogin** enables premium users to join without manual authentication if their Mojang UUID matches the database.
 
 ### 🚨 **Security & Exploit Protection**  
 ✔ Prevents cracked users from using premium usernames (avoiding unauthorized impersonation).
+
 ✔ IP-based session tracking (detects suspicious logins & prevents session hijacking).
+
 ✔ Anti-VPN System (optional, blocks proxy-based logins to prevent abuse).
+
 ✔ Rate-limited login attempts (prevents brute-force attacks by enforcing cooldowns).
+
 ✔ Configurable login timeout (disconnects unverified users after X seconds).
+
 ✔ Secure database storage.
 
 ### 📂 **Configurable Options**
