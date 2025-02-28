@@ -2,7 +2,7 @@
 
 ```
 💘 by TheNeku - CyberDevelopment 
-🌐 Discord: discord.cyberdev.eu 
+🌐 Discord: discord.cyberdevelopment.eu 
 ```
 
 ---
@@ -111,7 +111,7 @@ CyberLogin features a **simple yet powerful** command system:
 💎 **🔗 [BuiltByBits Store - Coming Soon](#) 🔗**  
 
 📢 **Need support? Join our Discord community!**  
-🔗 **[discord.cyberdev.eu](https://discord.cyberdev.eu)**  
+🔗 **[discord.cyberdev.eu](https://discord.cyberdevelopment.eu)**  
 
 ---
 
