@@ -71,15 +71,15 @@ CyberLogin **automatically detects the platform** and adjusts its functionality 
 
 # 🏆 **Core Features**  
 
-## 👤 **Player Authentication & Security**  
-✔ Mojang API verification ensures premium players always log in with their valid UUID.
-✔ Cracked players must register with passwords, secured using hashing.
-✔ Cracked players cannot impersonate premium users, ensuring a fair and secure environment.
+## 👤 **Player Authentication & Security**  <br>
+✔ Mojang API verification ensures premium players always log in with their valid UUID.<br>
+✔ Cracked players must register with passwords, secured using hashing.<br>
+✔ Cracked players cannot impersonate premium users, ensuring a fair and secure environment.<br>
 
 ### 🔓 **AutoLogin for Premium Players**  
-✔ Mojang authentication removes password requirements for premium players.
-✔ UUID-based security prevents unauthorized access.
-✔ Fully configurable AutoLogin system by config.yml
+✔ Mojang authentication removes password requirements for premium players.<br>
+✔ UUID-based security prevents unauthorized access.<br>
+✔ Fully configurable AutoLogin system by config.yml<br>
 
 ---
 
