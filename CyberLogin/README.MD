@@ -27,11 +27,13 @@ It ensures **account integrity**, **prevents exploits**, and **enhances server s
 
 ## 🔥 **How CyberLogin Works**  
 
-### 🔐 **Authentication System**  
-1️⃣ Players register with a highly secure **hashed password.**
-2️⃣ **Returning cracked users must log in** before gaining access.
-3️⃣ **Premium users are verified via Mojang API UUID checks**. *You can disable premium registration by config.yml)*.
+### 🔐 **Authentication System**
+
+1️⃣ Players register with a highly secure **hashed password**. <br>
+2️⃣ Returning cracked users **must log in** before gaining access. <br>
+3️⃣ **Premium users are verified via Mojang API UUID checks.** *(You can disable premium registration by config.yml.)* <br>
 4️⃣ **AutoLogin** enables premium users to join without manual authentication if their Mojang UUID matches the database.
+
 
 ### 🚨 **Security & Exploit Protection**  
 ✔ Prevents cracked users from using premium usernames (avoiding unauthorized impersonation).
