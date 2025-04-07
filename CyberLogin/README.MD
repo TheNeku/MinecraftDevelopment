@@ -30,7 +30,6 @@
 
 ## ⚠️ Disclaimer
 
-> **Commercial Plugin Notice**  
 > CyberLogin is protected under copyright by **Akira Studios** © 2024-2025  
 > 🛒 Exclusively distributed via **BuiltByBits**
 
