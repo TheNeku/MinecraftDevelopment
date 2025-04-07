@@ -1,0 +1,53 @@
+╔════════════════════════════════════════════════════════════════════╗
+║   🔐 CYBERLOGIN - COMMERCIAL LICENSE AGREEMENT                    ║
+║   © 2024-2025 Akira Studios | Developed by TheNeku                ║
+╚════════════════════════════════════════════════════════════════════╝
+
+📦 Product:      CyberLogin
+💻 Author:       TheNeku @ CyberDevelopment
+🌐 Discord:      https://discord.cyberdevelopment.eu
+🛒 Marketplace:  https://builtbybits.com/resources/
+
+──────────────────────────────────────────────────────────────────────
+
+⚠️ This plugin is COMMERCIAL and PROTECTED. Unauthorized use or sharing
+   will result in a permanent ban from support + legal actions.
+
+By using this plugin, you accept the following:
+
+1️⃣ LICENSE GRANT
+  ✔️ You may install and use CyberLogin on your own Minecraft network
+  ❌ You may NOT distribute, resell, upload or leak this plugin
+  🧠 You are responsible for maintaining a secure copy of your license
+
+2️⃣ DO NOT:
+  ⛔ Decompile, reverse-engineer, or modify the Java bytecode
+  ⛔ Re-sell or upload this plugin publicly or privately
+  ⛔ Claim it as your own
+  ⛔ Use cracked versions or download from unauthorized sources
+
+3️⃣ YOU MAY:
+  ✅ Edit config files, messages, and localization
+  ✅ Customize MiniMessage text and styling
+  ✅ Use CyberLogin in both public and private servers (1 license = 1 network)
+
+4️⃣ DISCLAIMER
+  This plugin is provided **as-is**, without warranty.
+  The author is not liable for data loss, server crashes, or misuse.
+
+5️⃣ SUPPORT & UPDATES
+  Verified buyers are entitled to:
+    • Full support via Discord
+    • Access to updates & bug fixes
+    • Feature requests & priority voting
+
+6️⃣ ENFORCEMENT
+  💣 Leaks and violations = instant license ban
+  🛡️ Akira Studios reserves the right to take action against misuse
+
+──────────────────────────────────────────────────────────────────────
+
+🛡️ Respect the craft. Respect the developer.
+If you enjoy CyberLogin — tell others. If you don’t — tell us.
+
+       💛 Thank you for choosing quality. Welcome to CyberSecurity.
