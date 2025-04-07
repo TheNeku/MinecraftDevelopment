@@ -3,7 +3,7 @@
 ```
 💘 by TheNeku - CyberDevelopment
 🌐 Discord: https://discord.akirastudios.eu
-🛒 Buy on [McMarket - COMING SOON](https://null.com)
+🛒 Buy on McMarket - COMING SOON
 ```
 
 ---
