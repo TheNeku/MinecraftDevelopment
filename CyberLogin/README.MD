@@ -1,4 +1,4 @@
-# 🚀 **CYBERLOGIN** | The Most Secure Authentication Plugin for Minecraft
+# 🚀 **CYBERLOGIN** | Smarter logins start here
 
 ```
 💘 by TheNeku - CyberDevelopment
