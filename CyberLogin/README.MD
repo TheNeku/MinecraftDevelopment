@@ -2,7 +2,8 @@
 
 ```
 💘 by TheNeku - CyberDevelopment
-🌐 Discord: https://discord.cyberdevelopment.eu
+🌐 Discord: https://discord.akirastudios.eu
+🛒 Buy on [McMarket - COMING SOON](https://null.com)
 ```
 
 ---
@@ -224,5 +225,5 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 + Fully cross-platform. Fully customizable. Built to scale.
 + If your server deserves quality — it deserves CyberLogin.
 ```
-
+🛒 Buy on [McMarket](https://null.com)
 🛡️ **Thanks for choosing CyberLogin — by TheNeku & Akira Studios** 🩶
