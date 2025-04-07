@@ -51,7 +51,7 @@ It’s crafted for **premium & cracked** hybrid networks with:
 - AutoLogin & multi-language support
     
 
-Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Paper**,
+Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 
 ---
 ## 🔥 Core Features
