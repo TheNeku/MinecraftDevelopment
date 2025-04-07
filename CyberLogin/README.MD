@@ -1,121 +1,246 @@
-# 🚀 **CYBERLOGIN** | **The Most Secure Authentication Plugin for Minecraft**  
+# 🚀 **CYBERLOGIN** | The Most Secure Authentication Plugin for Minecraft
 
 ```
-💘 by TheNeku - CyberDevelopment 
-🌐 Discord: discord.cyberdevelopment.eu 
+💘 by TheNeku - CyberDevelopment
+🌐 Discord: https://discord.cyberdevelopment.eu
 ```
 
 ---
 
-## ⚠ **DISCLAIMER**  
-🚨 **CyberLogin is a premium plugin, copyrighted © CyberDevelopment 2024-2025.**  
-✅ **Exclusively available on BuiltByBits** – Redistribution, decompilation, or unauthorized sharing of the code is strictly prohibited.  
+## 🧭 Table of Contents
+
+- ⚠️ Disclaimer
+    
+- 🙋 What is CyberLogin?
+    
+- 🔥 Core Features
+    
+- 📖 Wiki & Documentation
+    
+- 🔧 Technical Specs
+    
+- 🌐 Platform Compatibility
+    
+- 🧾 Commands & Permissions
+    
+- 🈯 Language System
+    
+- 💽 Database Support
+    
+- 🛡️ Admin Tools
+    
+- 🧪 Upcoming Features
+    
+- 📦 Licensing
+    
+- 📞 Support
+    
+- 📘 Setup Wiki
+    
+- 🏁 Final Words
+    
 
 ---
 
-# 👉 **Introduction**  
+## ⚠️ Disclaimer
 
-**CyberLogin** is a **multi-platform authentication plugin** designed to protect **premium and cracked** servers with advanced security systems.  
-It ensures **account integrity**, **prevents exploits**, and **enhances server security** by leveraging a robust authentication system.  
-
-💡 **CyberLogin is fully compatible with:**  
-✅ **Velocity Proxy** *(3.4.0+)*  
-✅ **BungeeCord Proxy** *(1.8 - 1.20.4+)*  
-✅ **Bukkit / Spigot / Paper** *(1.8 - 1.20.4+)*  
+> ⚠️ **Commercial Plugin Notice**  
+> CyberLogin is protected under copyright by **Akira Studios** © 2024-2025  
+> 🛒 Exclusively distributed via **BuiltByBits**
 
 ---
 
-## 🔥 **How CyberLogin Works**  
+## 🙋 What is CyberLogin?
 
-### 🔐 **Authentication System**
+> ✨ **CyberLogin** is a high-security, modern and feature-rich authentication system.
 
-1️⃣ Players register with a highly secure **hashed password**. <br>
-2️⃣ Returning cracked users **must log in** before gaining access. <br>
-3️⃣ **Premium users are verified via Mojang API UUID checks.** *(You can disable premium registration by config.yml.)* <br>
-4️⃣ **AutoLogin** enables premium users to join without manual authentication if their Mojang UUID matches the database.
+It’s crafted for **premium & cracked** hybrid networks with:
 
+- Intelligent session & IP tracking
+    
+- Premium Mojang UUID verification
+    
+- Secure password flow (with Argon2id)
+    
+- AutoLogin & multi-language support
+    
 
-### 🚨 **Security & Exploit Protection**  
+Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Paper**,
 
-✔ Prevents cracked users from using premium usernames (avoiding unauthorized impersonation).<br>
-✔ IP-based session tracking (detects suspicious logins & prevents session hijacking).<br>
-✔ Anti-VPN System (optional, blocks proxy-based logins to prevent abuse).<br>
-✔ Rate-limited login attempts (prevents brute-force attacks by enforcing cooldowns).<br>
-✔ Configurable login timeout (disconnects unverified users after X seconds).<br>
-✔ Secure database storage.
+---
+## 🔥 Core Features
 
-### 📂 **Configurable Options**
-✔ **Fully configurable AuthSystem by config.yml** *(Uploaded in the rep)* **YOU CAN SET EVERYTHING IN THIS PLUGIN xD**<br>
-✔ **Fully customizable messages (Supports MiniMessage formatting).**<br>
-✔ **Authentication timeout settings (e.g., auto-kick after X seconds).**<br>
-✔ **Toggle features like AutoLogin, premium check, and session management.**<br>
-✔ **Multi-language support (planned for future updates).**<br>
-
-### 🌍 **Cross-Platform Compatibility**  
-CyberLogin **automatically detects the platform** and adjusts its functionality accordingly.  
-
-| **Feature** | **Velocity & BungeeCord** | **Spigot / Bukkit** |
-|------------|--------------------------|----------------------|
-| Secure Registration/Login | ✅ | ✅ |
-| AutoLogin for Premium Players | ✅ | ✅ |
-| Automatic Server Switching | ✅ | ❌ *(Not supported)* |
-| Session Management | ✅ | ✅ |
-| MySQL / H2 Database Support | ✅ | ✅ |
-| API Support (PL Integrated) | ✅ | ✅ |
-
-🚨 **Notes:**  
-- **Velocity & BungeeCord:** Supports **automatic server switching** after login *(configurable in `config.yml`)*.  
-- **Spigot/Bukkit:** Players remain on the same server after authentication.  
+✨ Military-grade security with **Argon2id hashing**  
+🛂 **Premium detection** via Mojang's official API  
+🔐 Seamless **AutoLogin** for verified UUIDs  
+🗨️ Fully customizable **MiniMessage-based messages**  
+🗒️ **YAML-only** setup (no database? no problem!)
+⚙️ Extensive `config.yml` for deep customization  
+🧱 LuckPerms-based unregister protection
 
 ---
 
-# 🏆 **Core Features**  
+## 📖 Wiki & Documentation
 
-## 👤 **Player Authentication & Security**  <br>
-✔ Mojang API verification ensures premium players always log in with their valid UUID.<br>
-✔ Cracked players must register with passwords, secured using hashing.<br>
-✔ Cracked players cannot impersonate premium users, ensuring a fair and secure environment.<br>
+📘 **Explore the docs:**  
+👉 [GitHub Wiki](https://github.com/TheNeku/MinecraftDevelopment/wiki/CyberLogin)  
+🎨 [MiniMessage Format](https://docs.advntr.dev/minimessage/format.html)  
+🧩 [LuckPerms Wiki](https://luckperms.net/wiki/Home)
 
-### 🔓 **AutoLogin for Premium Players**  
-✔ Mojang authentication removes password requirements for premium players.<br>
-✔ UUID-based security prevents unauthorized access.<br>
-✔ Fully configurable AutoLogin system by config.yml<br>
+🧠 Topics:
 
----
-
-# ☁ **Database & Storage**  
-
-### 🛠 **MySQL & H2 Support**  
-✔ **MySQL** *(multi-server support, recommended for proxy networks)*.  
-✔ **H2 Database** *(lightweight, for single-server use)*.  
-✔ **Automatic table creation and database setup** *(no manual SQL required!)*.  
+- Multi-platform installation (Velocity, Bungee, Spigot)
+    
+- YAML examples & quick configs
+    
+- Placeholder formatting
+    
+- Developer info (v2+)
+    
+- Advanced permissions & session control
 
 ---
 
-# 📢 **Commands & Permissions**  
+## 🔧 Technical Specs
 
-CyberLogin features a **simple yet powerful** command system:
-
-| **Command**               | **Description**                                  | **Permission**           |
-|---------------------------|------------------------------------------------|--------------------------|
-| `/register <password> <password>` | Register a new account | No permission required |
-| `/login <password>` | Log in to an existing account | No permission required |
-| `/unregister` | Delete the user’s account (if enabled) | `clogin.unregister` |
-| `/changepassword <old> <new>` | Change the user’s password | No permission required |
-| `/autologin` | Enable/disable AutoLogin for premium users | `clogin.autologin` |
-
-🚨 **Platform Differences:**  
-- **Velocity/BungeeCord:** Commands **must** be executed on the **proxy server**.  
-- **Spigot/Bukkit:** Commands **are executed locally** on the **same server**.  
+|🔹 Feature|⚙️ Details|
+|---|---|
+|🔐 Password Security|Argon2id - 4i, 64MB RAM|
+|🈯 Language Format|MiniMessage YAML|
+|🧾 Config Format|YAML (`config.yml`)|
+|💾 DB Support|MySQL, H2 (auto schema)|
+|🔌 Platforms|Velocity, Bungee, Spigot, Paper|
+|🧩 Permissions System|LuckPerms 5+|
+|☕ Java Requirement|Java 17+|
 
 ---
 
-# 🛒 **Available Soon on BuiltByBits!**  
-💎 **🔗 [BuiltByBits Store - Coming Soon](#) 🔗**  
+## 🌐 Platform Compatibility
 
-📢 **Need support? Join our Discord community!**  
-🔗 **[discord.cyberdev.eu](https://discord.cyberdevelopment.eu)**  
+|   |   |   |
+|---|---|---|
+|Feature|Velocity / Bungee|Spigot / Paper|
+|🔐 Secure Login/Register|✅|✅|
+|🧠 Premium AutoLogin|✅|✅|
+|🔁 Server Redirection|✅|❌|
+|🧩 IP & Session Management|✅|✅|
+|⏱️ Cooldowns & Rate Limiting|✅|✅|
+|🧱 Group Weight Checks|✅|✅|
 
 ---
 
-🚀 **🔐 Secure your server today with CyberLogin! 🔥**
+## 🧾 Commands & Permissions
+
+|   |   |   |
+|---|---|---|
+|Command|Description|Permission|
+|`/register <pass> <confirm>`|Register a new account|—|
+|`/login <password>`|Log in to your account|—|
+|`/changepassword <old> <new>`|Update your password|—|
+|`/unregister <player>`|Remove user (with permission checks)|`cyberlogin.unregister`|
+|`/autologin`|Toggle AutoLogin for premium players|`cyberlogin.autologin`|
+
+🔒 All commands enforce permissions — safe for production!
+
+---
+
+## 🈯 Language System
+
+🌍 Included:
+
+- ᴇɴ English
+    
+- 🇮🇹 Italiano
+    
+- 🇫🇷 Français
+    
+- 🇪🇸 Español
+    
+
+📝 Customizable via `lang/messages_xx.yml`  
+🎨 Format using [MiniMessage](https://docs.advntr.dev/minimessage/format.html)
+
+---
+
+## 💽 Database Support
+
+|   |   |   |
+|---|---|---|
+|Feature|MySQL|H2 (Flatfile)|
+|Multi-server Support|✅|❌|
+|Auto Schema Creation|✅|✅|
+|Production Stability|✅|⚠️ Development only|
+
+💾 Passwords are hashed & never stored in plain text!
+
+---
+
+## 🛡️ Admin Tools
+
+🧮 `maxfordepex` → set max group weight to protect important accounts  
+🚫 `/unregister` blocked if target exceeds your weight  
+📛 Customizable messages for cooldowns, warnings, and permissions  
+🧱 Structure ready for logging, API and integration
+
+---
+
+## 🧪 Upcoming Features
+
+🌐 **REST API** for integration  
+🧠 **Session Recovery** for ghost logins  
+🛰️ **Anti-VPN Detection** (IP trust scoring)  
+📊 **Admin Dashboard** (browser-based UI)  
+🎯 **PlaceholderAPI Expansion**
+
+---
+
+## 📦 Licensing
+
+🛍️ CyberLogin is launching exclusively on [BuiltByBits](https://builtbybits.com/resources/)  
+📜 Licensed under Commercial Use — resale or leaks will be prosecuted.
+
+---
+
+## 📞 Support
+
+💬 Need help? Join the CyberDev Discord:  
+🔗 [discord.akirastudios.eu](https://discord.cyberdevelopment.eu)
+🐞 Report issues directly on GitHub  
+🌍 Translate or expand the wiki — contribute!
+
+---
+
+## 📘 Setup Wiki
+
+🧩 Quickstart Steps:
+
+1️⃣ Drop `CyberLogin.jar` into **proxy and/or backend servers**  
+2️⃣ Start server & generate default files  
+3️⃣ Edit `config.yml` for:
+
+- Auth/Lobby server names
+    
+- Cooldowns, DB, unregister limits 4️⃣ Edit language files `/lang/messages_xx.yml` 5️⃣ Reload or restart
+    
+
+⚙️ Optional:
+
+- Setup MySQL for production environments
+    
+- Apply weight rules with *LuckPerms*
+    
+- Style messages with MiniMessage
+    
+
+---
+
+## 🏁 Final Words
+
+```
++ CyberLogin is more than just login security.
++ It's protection, professionalism, and player peace of mind.
++ Fully cross-platform. Fully customizable. Built to scale.
++ If your server deserves quality — it deserves CyberLogin.
+```
+
+🛡️ **Thanks for choosing CyberLogin — by TheNeku & Akira Studios** 🩶
