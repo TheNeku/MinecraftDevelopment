@@ -46,7 +46,7 @@
 
 > ⚠️ **Commercial Plugin Notice**  
 > CyberLogin is protected under copyright by **Akira Studios** © 2024-2025  
-> 🛒 Exclusively distributed via **BuiltByBits**
+> 🛒 Exclusively distributed via [**BuiltByBits**](https://builtbybits.com/resources/)
 
 ---
 
@@ -65,18 +65,22 @@ It’s crafted for **premium & cracked** hybrid networks with:
 - AutoLogin & multi-language support
     
 
-Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Paper**,
+Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot**, 🔴 **Paper**
 
 ---
+
 ## 🔥 Core Features
 
-✨ Military-grade security with **Argon2id hashing**  
-🛂 **Premium detection** via Mojang's official API  
-🔐 Seamless **AutoLogin** for verified UUIDs  
-🗨️ Fully customizable **MiniMessage-based messages**  
-🗒️ **YAML-only** setup (no database? no problem!)
-⚙️ Extensive `config.yml` for deep customization  
-🧱 LuckPerms-based unregister protection
+```
+✅ Argon2id hashing (industry-grade security)
+✅ Mojang API integration for premium checks
+✅ AutoLogin for verified UUIDs
+✅ Rich YAML/MiniMessage customization
+✅ LuckPerms-based unregister protection
+✅ YAML-only setup (no database? no problem!)
+✅ Redirection from Auth to Lobby (proxy-only)
+✅ Future-ready: REST API & Dev API incoming
+```
 
 ---
 
@@ -98,6 +102,7 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 - Developer info (v2+)
     
 - Advanced permissions & session control
+    
 
 ---
 
@@ -134,11 +139,11 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 |   |   |   |
 |---|---|---|
 |Command|Description|Permission|
-|`/register <pass> <confirm>`|Register a new account|—|
-|`/login <password>`|Log in to your account|—|
-|`/changepassword <old> <new>`|Update your password|—|
-|`/unregister <player>`|Remove user (with permission checks)|`cyberlogin.unregister`|
-|`/autologin`|Toggle AutoLogin for premium players|`cyberlogin.autologin`|
+|`/register <pass> <confirm>`|Register your account|—|
+|`/login <password>`|Log in securely|—|
+|`/changepassword <old> <new>`|Change your password|—|
+|`/unregister <player>`|Delete user account|`cyberlogin.unregister`|
+|`/autologin`|Toggle AutoLogin (premium only)|`cyberlogin.autologin`|
 
 🔒 All commands enforce permissions — safe for production!
 
@@ -168,19 +173,23 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 |---|---|---|
 |Feature|MySQL|H2 (Flatfile)|
 |Multi-server Support|✅|❌|
-|Auto Schema Creation|✅|✅|
-|Production Stability|✅|⚠️ Development only|
+|Auto Schema Setup|✅|✅|
+|Production Ready|✅|⚠️ Dev-only Use|
 
-💾 Passwords are hashed & never stored in plain text!
+Passwords are hashed & never stored in plain text.
 
 ---
 
 ## 🛡️ Admin Tools
 
-🧮 `maxfordepex` → set max group weight to protect important accounts  
-🚫 `/unregister` blocked if target exceeds your weight  
-📛 Customizable messages for cooldowns, warnings, and permissions  
-🧱 Structure ready for logging, API and integration
+- ⚙️ `maxfordepex` → unregister weight limit
+    
+- 🚫 Unregister blocked by group power
+    
+- 📝 Fully editable messages for feedback
+    
+- 🧠 Internally modular: API-ready architecture
+    
 
 ---
 
@@ -204,7 +213,8 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 ## 📞 Support
 
 💬 Need help? Join the CyberDev Discord:  
-🔗 [discord.akirastudios.eu](https://discord.cyberdevelopment.eu)
+🔗 [discord.cyberdevelopment.eu](https://discord.cyberdevelopment.eu)
+
 🐞 Report issues directly on GitHub  
 🌍 Translate or expand the wiki — contribute!
 
@@ -212,24 +222,23 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 
 ## 📘 Setup Wiki
 
-🧩 Quickstart Steps:
+🧩 Quickstart:
 
-1️⃣ Drop `CyberLogin.jar` into **proxy and/or backend servers**  
-2️⃣ Start server & generate default files  
-3️⃣ Edit `config.yml` for:
+```
+1. Drop CyberLogin.jar into proxy & backend servers
+2. Start the server (let it generate default files)
+3. Configure `config.yml` (auth, db, limits, cooldowns)
+4. Customize your `/lang/messages_xx.yml`
+5. Restart server to apply everything
+```
 
-- Auth/Lobby server names
-    
-- Cooldowns, DB, unregister limits 4️⃣ Edit language files `/lang/messages_xx.yml` 5️⃣ Reload or restart
-    
+💡 Optional:
 
-⚙️ Optional:
-
-- Setup MySQL for production environments
+- Switch to MySQL for network-wide sync
     
-- Apply weight rules with *LuckPerms*
+- Use LuckPerms for fine-grain unregister control
     
-- Style messages with MiniMessage
+- Add gradients, colors with MiniMessage 🖌️
     
 
 ---
@@ -237,10 +246,10 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 ## 🏁 Final Words
 
 ```
-+ CyberLogin is more than just login security.
-+ It's protection, professionalism, and player peace of mind.
-+ Fully cross-platform. Fully customizable. Built to scale.
-+ If your server deserves quality — it deserves CyberLogin.
++ CyberLogin isn't just another login plugin.
++ It's your server's armor — sleek, secure, stylish.
++ Designed with performance, extensibility, and safety in mind.
++ If you're serious about security — you want CyberLogin.
 ```
 
 🛡️ **Thanks for choosing CyberLogin — by TheNeku & Akira Studios** 🩶
