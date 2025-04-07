@@ -205,7 +205,9 @@ Compatible with: 🟢 **Velocity**, 🟡 **BungeeCord**, 🔵 **Spigot/Bukkit/Pa
 3️⃣ Edit `config.yml` for:
 
 - Auth/Lobby server names
-- Cooldowns, DB, unregister limits 4️⃣ Edit language files `/lang/messages_xx.yml` 5️⃣ Reload or restart
+- Cooldowns, DB, unregister limits 
+
+4️⃣ Edit language files `/lang/messages_xx.yml` 5️⃣ Reload or restart
     
 
 ⚙️ Optional:
