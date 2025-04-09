@@ -1,3 +1,6 @@
+---
+
+```
 ╔════════════════════════════════════════════════════════════════════╗
 ║              🔐 CYBERLOGIN — COMMERCIAL LICENSE AGREEMENT         ║
 ║         © 2024–2025 Akira Studios | Developed by TheNeku          ║
@@ -59,7 +62,17 @@ In the event of serious violations, including but not limited to:
 Your license will be **permanently revoked** without refund.  
 Akira Studios reserves the right to pursue legal action where necessary.
 
+────────────────────────────
+5️⃣ APPLICABLE TERMS
+────────────────────────────
+This license is subject to the **Akira Studios Terms of Service** as well as the  
+**Terms of Service of the marketplace platform used for purchase (e.g., MC-Market / BuiltByBits)**.  
+By using this software, you agree to comply with all applicable policies and rules.
+
 ──────────────────────────────────────────────────────────────────────
 
 For any questions regarding this license or its terms, please contact us via  
 the official Discord server or through the marketplace where the plugin was purchased.
+```
+
+---
