@@ -1,53 +1,68 @@
+```
+
 ╔════════════════════════════════════════════════════════════════════╗
-║   🔐 CYBERLOGIN - COMMERCIAL LICENSE AGREEMENT                    ║
-║   © 2024-2025 Akira Studios | Developed by TheNeku                ║
+║              🔐 CYBERLOGIN — COMMERCIAL LICENSE AGREEMENT         ║
+║         © 2024–2025 Akira Studios | Developed by TheNeku          ║
 ╚════════════════════════════════════════════════════════════════════╝
 
-📦 Product:      CyberLogin
-💻 Author:       TheNeku @ CyberDevelopment
-🌐 Discord:      https://discord.cyberdevelopment.eu
-🛒 Marketplace:  https://builtbybits.com/resources/
+📦 Product:        CyberLogin  
+👤 Developer:      TheNeku @ CyberDevelopment  
+🌐 Discord:        https://discord.cyberdevelopment.eu  
+🛒 Marketplace:    https://builtbybits.com/resources/
 
 ──────────────────────────────────────────────────────────────────────
 
-⚠️ This plugin is COMMERCIAL and PROTECTED. Unauthorized use or sharing
-   will result in a permanent ban from support + legal actions.
+⚠️ CyberLogin is a **commercial software product** protected by copyright.  
+Unauthorized usage, redistribution, or tampering will result in the **immediate  
+revocation of your license** and may lead to **legal action**.
 
-By using this plugin, you accept the following:
+By installing or using this plugin, you agree to the following terms:
 
-1️⃣ LICENSE GRANT
-  ✔️ You may install and use CyberLogin on your own Minecraft network
-  ❌ You may NOT distribute, resell, upload or leak this plugin
-  🧠 You are responsible for maintaining a secure copy of your license
+────────────────────────────
+1️⃣ LICENSE TERMS
+────────────────────────────
+This license is:
 
-2️⃣ DO NOT:
-  ⛔ Decompile, reverse-engineer, or modify the Java bytecode
-  ⛔ Re-sell or upload this plugin publicly or privately
-  ⛔ Claim it as your own
-  ⛔ Use cracked versions or download from unauthorized sources
+• **Personal** and **non-transferable**  
+• Valid for use on one or more servers **owned or managed by the license holder**  
+• Allows modification of configuration files, messages, and localization  
 
-3️⃣ YOU MAY:
-  ✅ Edit config files, messages, and localization
-  ✅ Customize MiniMessage text and styling
-  ✅ Use CyberLogin in both public and private servers (1 license = 1 network)
+You are **strictly prohibited** from:
 
-4️⃣ DISCLAIMER
-  This plugin is provided **as-is**, without warranty.
-  The author is not liable for data loss, server crashes, or misuse.
+❌ Distributing, reselling, or sharing the plugin (publicly or privately)  
+❌ Decompiling, reverse engineering, or modifying the compiled code  
+❌ Claiming authorship or ownership of this software  
+❌ Using or promoting unauthorized, cracked, or leaked versions  
 
-5️⃣ SUPPORT & UPDATES
-  Verified buyers are entitled to:
-    • Full support via Discord
-    • Access to updates & bug fixes
-    • Feature requests & priority voting
+────────────────────────────
+2️⃣ LIABILITY DISCLAIMER
+────────────────────────────
+This software is provided **"as is"**, without warranties of any kind.  
+Akira Studios is **not liable** for data loss, server failures, or issues caused  
+by improper installation or misuse.
 
-6️⃣ ENFORCEMENT
-  💣 Leaks and violations = instant license ban
-  🛡️ Akira Studios reserves the right to take action against misuse
+────────────────────────────
+3️⃣ SUPPORT & UPDATES
+────────────────────────────
+Verified license holders are entitled to:
+
+• Dedicated support via the official Discord server  
+• Access to all official updates and bug fixes  
+• The ability to request new features and improvements  
+
+────────────────────────────
+4️⃣ LICENSE REVOCATION & ENFORCEMENT
+────────────────────────────
+In the event of serious violations, including but not limited to:  
+• Unauthorized redistribution  
+• Tampering with compiled code  
+• Fraudulent use or illicit sharing  
+
+Your license will be **permanently revoked** without refund.  
+Akira Studios reserves the right to pursue legal action where necessary.
 
 ──────────────────────────────────────────────────────────────────────
 
-🛡️ Respect the craft. Respect the developer.
-If you enjoy CyberLogin — tell others. If you don’t — tell us.
-
-       🩶 Thank you for choosing quality. Welcome to CyberSecurity.
+For any questions regarding this license or its terms, please contact us via  
+the official Discord server or through the marketplace where the plugin was purchased.
+```
