@@ -1,5 +1,3 @@
-```
-
 ╔════════════════════════════════════════════════════════════════════╗
 ║              🔐 CYBERLOGIN — COMMERCIAL LICENSE AGREEMENT         ║
 ║         © 2024–2025 Akira Studios | Developed by TheNeku          ║
@@ -65,4 +63,3 @@ Akira Studios reserves the right to pursue legal action where necessary.
 
 For any questions regarding this license or its terms, please contact us via  
 the official Discord server or through the marketplace where the plugin was purchased.
-```
