@@ -208,6 +208,7 @@ Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 - Cooldowns, DB, unregister limits 
 
 4️⃣ Edit language files `/lang/messages_xx.yml`
+
 5️⃣ Reload or restart
     
 
