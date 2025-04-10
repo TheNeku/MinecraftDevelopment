@@ -207,7 +207,8 @@ Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 - Auth/Lobby server names
 - Cooldowns, DB, unregister limits 
 
-4️⃣ Edit language files `/lang/messages_xx.yml` 5️⃣ Reload or restart
+4️⃣ Edit language files `/lang/messages_xx.yml`
+5️⃣ Reload or restart
     
 
 ⚙️ Optional:
