@@ -189,7 +189,7 @@ Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 
 ## 📞 Support
 
-💬 Need help? Join the CyberDev Discord:  
+💬 Need help? Join the Akira Studios official Discord:  
 🔗 [discord.akirastudios.eu](https://discord.cyberdevelopment.eu)
 🐞 Report issues directly on GitHub  
 🌍 Translate or expand the wiki — contribute!
