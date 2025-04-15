@@ -58,11 +58,11 @@ Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 
 ✨ Military-grade security with **Argon2id hashing**  
 🛂 **Premium detection** via Mojang's official API  
-🔐 Seamless **AutoLogin** for verified UUIDs  
-🗨️ Fully customizable **MiniMessage-based messages**  
-🗒️ **YAML-only** setup (no database? no problem!)
+🔐 Seamless **AutoLogin** for verified UUIDs
+🧠 Secure, seamless recovery from ghost logins
+🗨️ Fully customizable YAML **MiniMessage-based messages**  
 ⚙️ Extensive `config.yml` for deep customization  
-🧱 LuckPerms-based unregister protection
+🧱 LuckPerms-based unregister protection *(No LuckPerms? no problem)*
 
 ---
 
@@ -134,7 +134,7 @@ Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 
 🌍 Included:
 
-- ᴇɴ English
+- 🇬🇧 English
     
 - 🇮🇹 Italiano
     
@@ -173,7 +173,6 @@ Compatible with: **Velocity**, **BungeeCord**, **Spigot/Bukkit/Paper**,
 ## 🧪 Upcoming Features
 
 🌐 **REST API** for integration  
-🧠 **Session Recovery** for ghost logins  
 🛰️ **Anti-VPN Detection** (IP trust scoring)  
 📊 **Admin Dashboard** (browser-based UI)  
 🎯 **PlaceholderAPI Expansion**
