@@ -1,4 +1,4 @@
-//To help you understand how the multi-platform system works, I'll put a semplified version here! Thanks in dm xD
+//Frankly I used this class in my pl for messages on the detect platform!
 
 package eu.neku.cyberlogin.common;
 
