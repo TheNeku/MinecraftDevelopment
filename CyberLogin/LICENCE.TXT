@@ -1,72 +1,72 @@
-╔════════════════════════════════════════════════════════════════════╗
-║              🔐 CYBERLOGIN — COMMERCIAL LICENSE AGREEMENT          ║
-║         © 2024–2025 Akira Studios | Developed by TheNeku           ║
-╚════════════════════════════════════════════════════════════════════╝
+                ╔════════════════════════════════════════════════════════════════════╗
+                ║              🔐 CYBERLOGIN — COMMERCIAL LICENSE AGREEMENT          ║
+                ║         © 2024–2025 Akira Studios | Developed by TheNeku           ║
+                ╚════════════════════════════════════════════════════════════════════╝
 
-📦 Product:        CyberLogin  
-👤 Developer:      TheNeku @Akira Studios  
-🌐 Discord:        https://discord.akirastudios.eu  
-🛒 Marketplace:    https://builtbybits.com/resources/COMING-SOON
+                📦 Product:        CyberLogin
+                👤 Developer:      TheNeku @Akira Studios
+                🌐 Discord:        https://discord.akirastudios.eu
+                🛒 Marketplace:    https://builtbybits.com/resources/COMING-SOON
 
-──────────────────────────────────────────────────────────────────────
+                ──────────────────────────────────────────────────────────────────────
 
-⚠️ CyberLogin is a **commercial software product** protected by copyright.  
-Unauthorized usage, redistribution, or tampering will result in the **immediate  
-revocation of your license** and may lead to **legal action**.
+                ⚠️ CyberLogin is a **commercial software product** protected by copyright.
+                Unauthorized usage, redistribution, or tampering will result in the **immediate
+                revocation of your license** and may lead to **legal action**.
 
-By installing or using this plugin, you agree to the following terms:
+                By installing or using this plugin, you agree to the following terms:
 
-────────────────────────────
-1️⃣ LICENSE TERMS
-────────────────────────────
-This license is:
+                ────────────────────────────
+                1️⃣ LICENSE TERMS
+                ────────────────────────────
+                This license is:
 
-• **Personal** and **non-transferable**  
-• Valid for use on one or more servers **owned or managed by the license holder**  
-• Allows modification of configuration files, messages, and localization  
+                • **Personal** and **non-transferable**
+                • Valid for use on one or more servers **owned or managed by the license holder**
+                • Allows modification of configuration files, messages, and localization
 
-You are **strictly prohibited** from:
+                You are **strictly prohibited** from:
 
-❌ Distributing, reselling, or sharing the plugin (publicly or privately)  
-❌ Decompiling, reverse engineering, or modifying the compiled code  
-❌ Claiming authorship or ownership of this software  
-❌ Using or promoting unauthorized, cracked, or leaked versions  
+                ❌ Distributing, reselling, or sharing the plugin (publicly or privately)
+                ❌ Decompiling, reverse engineering, or modifying the compiled code 
+                ❌ Claiming authorship or ownership of this software
+                ❌ Using or promoting unauthorized, cracked, or leaked versions
 
-────────────────────────────
-2️⃣ LIABILITY DISCLAIMER
-────────────────────────────
-This software is provided **"as is"**, without warranties of any kind.  
-Akira Studios is **not liable** for data loss, server failures, or issues caused  
-by improper installation or misuse.
+                ────────────────────────────
+                2️⃣ LIABILITY DISCLAIMER
+                ────────────────────────────
+                This software is provided **"as is"**, without warranties of any kind. 
+                Akira Studios is **not liable** for data loss, server failures, or issues caused 
+                by improper installation or misuse.
 
-────────────────────────────
-3️⃣ SUPPORT & UPDATES
-────────────────────────────
-Verified license holders are entitled to:
+                ────────────────────────────
+                3️⃣ SUPPORT & UPDATES
+                ────────────────────────────
+                Verified license holders are entitled to:
 
-• Dedicated support via the official Discord server  
-• Access to all official updates and bug fixes  
-• The ability to request new features and improvements  
+                • Dedicated support via the official Discord server 
+                • Access to all official updates and bug fixes 
+                • The ability to request new features and improvements 
 
-────────────────────────────
-4️⃣ LICENSE REVOCATION & ENFORCEMENT
-────────────────────────────
-In the event of serious violations, including but not limited to:  
-• Unauthorized redistribution  
-• Tampering with compiled code  
-• Fraudulent use or illicit sharing  
+                ────────────────────────────
+                4️⃣ LICENSE REVOCATION & ENFORCEMENT
+                ────────────────────────────
+                In the event of serious violations, including but not limited to: 
+                • Unauthorized redistribution 
+                • Tampering with compiled code 
+                • Fraudulent use or illicit sharing 
 
-Your license will be **permanently revoked** without refund.  
-Akira Studios reserves the right to pursue legal action where necessary.
+                Your license will be **permanently revoked** without refund. 
+                Akira Studios reserves the right to pursue legal action where necessary.
 
-────────────────────────────
-5️⃣ APPLICABLE TERMS
-────────────────────────────
-This license is subject to the **Akira Studios Terms of Service** as well as the  
-**Terms of Service of the marketplace platform used for purchase (e.g., MC-Market / BuiltByBits)**.  
-By using this software, you agree to comply with all applicable policies and rules.
+                ────────────────────────────
+                5️⃣ APPLICABLE TERMS
+                ────────────────────────────
+                This license is subject to the **Akira Studios Terms of Service** as well as the 
+                **Terms of Service of the marketplace platform used for purchase (e.g., MC-Market / BuiltByBits)**. 
+                By using this software, you agree to comply with all applicable policies and rules.
 
-──────────────────────────────────────────────────────────────────────
+                ──────────────────────────────────────────────────────────────────────
 
-For any questions regarding this license or its terms, please contact us via  
-the official Discord server or through the marketplace where the plugin was purchased.
+                For any questions regarding this license or its terms, please contact us via s
+                the official Discord server or through the marketplace where the plugin was purchased.
